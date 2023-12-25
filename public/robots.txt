@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://CatarinaSeigward.github.io/sitemap.xml
