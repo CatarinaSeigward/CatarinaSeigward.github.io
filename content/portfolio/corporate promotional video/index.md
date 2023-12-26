@@ -6,12 +6,12 @@ jobDate: 2022
 work: [design, architecture]
 techs: [javascript, D3]
 designs: [Photoshop]
-thumbnail: assets/[(1203)2023-12-26-22-16-39].JPG
+thumbnail: /assets/[(1203)2023-12-26-22-16-39].JPG
 projectUrl: https://www.sampleorganization.org
 testimonial:
   name: Jialun Xu
   role: Me @Example
-  image: corporate promotional video/Xu.jpg
+  image: corporate promotional video/Jialun Xu.jpg.jpg
   text: Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin
 ---
 
