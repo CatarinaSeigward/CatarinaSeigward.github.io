@@ -11,7 +11,7 @@ projectUrl: https://www.sampleorganization.org
 testimonial:
   name: Jialun Xu
   role: Me @Example
-  image: corporate promotional video/Jialun Xu.jpg.jpg
+  image: /corporate promotional video/Jialun Xu.jpg.jpg
   text: Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin
 ---
 
