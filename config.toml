@@ -81,6 +81,11 @@ pygmentsCodeFences=true
   url = "/post/"
   weight = -100
 
+#[[menu.main]]
+#name = "CV"
+#url = "/resume/Kaiwen-Lin-CV.pdf"
+#weight = 10
+
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"

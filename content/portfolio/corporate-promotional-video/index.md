@@ -10,9 +10,9 @@ thumbnail: /assets/[(1203)2023-12-26-22-16-39].JPG
 projectUrl: https://www.sampleorganization.org
 testimonial:
   name: Jialun Xu
-  role: Me @Example
-  image: /corporate promotional video/Jialun Xu.jpg.jpg
-  text: Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin
+  role: 297877533@qq.com
+  image: /Jialun-Xu.jpg
+  text: He is the founder of Panda Creative and the main mastermind behind this project.
 ---
 
 **Project Title:** Corporate Promotional Video for New Tanx Technology
@@ -36,7 +36,7 @@ testimonial:
 
 ![[(1200)2023-12-26-22-16-39]](./assets/[(1200)2023-12-26-22-16-39].JPG)
 
-![[(1201)2023-12-26-22-16-39]](./assets/[(1201)2023-12-26-22-16-39].JPG)
+![[(1201)2023\-12-26-22-16-39]](./assets/[(1201)2023-12-26-22-16-39].JPG)
 
 ![[(1202)2023-12-26-22-16-39]](./assets/[(1202)2023-12-26-22-16-39].JPG)
 
