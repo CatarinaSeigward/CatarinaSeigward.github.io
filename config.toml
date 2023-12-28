@@ -49,12 +49,12 @@ pygmentsCodeFences=true
   customCSS = ""
 
 [params.social]
-  github = "https://github.com/"
+  github = "https://github.com/CatarinaSeigward"
   linkedin = "https://www.linkedin.com/in/"
-  instagram = "https://www.instagram.com/"
+  instagram = "https://www.instagram.com/dameilin45/"
 
 [params.contact]
-  email = ""
+  email = "dameilin66@gmail.com"
   text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
 
 
