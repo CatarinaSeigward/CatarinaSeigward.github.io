@@ -7,7 +7,7 @@ work: [Video, AI]
 techs: [PR,AE]
 designs: [Photoshop]
 thumbnail: corporate-promotional-video/sample1.JPG
-projectUrl: https://www.newtranx.com/
+projectUrl: https://youtu.be/fDFt_ElefWw
 testimonial:
   name: Jialun Xu
   role: the founder of Panda Creative
@@ -17,7 +17,7 @@ testimonial:
 
 **Project Title:** Corporate Promotional Video for New Tanx Technology
 
-**Client:** New Tanx Tech.
+**Client:** [New Tanx Tech](https://www.newtranx.com/)
 
 **Project Overview:** We created a dynamic and engaging corporate promotional video for New Tanx Technology, a leading technology translation company. The video showcases the company's innovative solutions in bridging language barriers in the tech industry, highlighting their expertise in translating complex technical documents and software localization.
 

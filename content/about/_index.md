@@ -8,6 +8,12 @@ This is my about page. :wave:
 
 Hello there! 😊I'm a vibrant graduate student specializing in International Relations within the sphere of Social Sciences. My academic journey has been marked by several published papers in my field, reflecting my deep interest and commitment to understanding global dynamics. you can visit [my homepage of CNKI](https://kns.cnki.net/kcms2/author/detail?v=xBNwvqFr00JloK2qyM4XitHR1JT7ASD_EIpf0YZDTbZmTOdTST4KuKP40KzHTz89vYW28rGD2NiyRBaXJdzJM-TX8Yewk0esMcEUqbszK19fhlLTW-gMXpFqy6yYyENC&uniplatform=NZKPT&language=CHS).
 
+One of my papers once received those awards:
+
+> Excerpted in the full text of  *the International Trade* (Vol.1 in 2023) of Information Center for Science, Renmin University of China;
+> Recognized as "Top 10 Best Chinese Papers in Global Governance in 2022" by the *World Economic Yearbook*;
+> Included in *the Chinese Academy of Social Sciences Yearbook Volume 2023*.
+
 Photography is my creative escape📸. I co-founded a small studio where I channel my artistic flair into creating promotional videos and portraits for companies and individuals alike. It's a world where my lens captures stories, one frame at a time.![phome](./assets/phome.jpg)
 
 In my pursuit of physical fitness💪, I've dedicated six years to strength training, focusing on powerlifting. I take pride in my personal record of lifting a whopping 480 kg across the three major lifts: bench press, deadlift, and deep squat. It's not just lifting weights; it's lifting my spirit!![gympho](./assets/gympho.jpg)
