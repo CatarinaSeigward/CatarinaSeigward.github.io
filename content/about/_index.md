@@ -5,9 +5,9 @@ description: Hey, I'm Kaiwen Lin
 
 This is my about page. :wave:
 
-Hello there! 😊I'm a vibrant graduate student specializing in International Relations within the sphere of Social Sciences. My academic journey has been marked by several published papers in my field, reflecting my deep interest and commitment to understanding global dynamics. you can visit [my homepage of CNKI](https://kns.cnki.net/kcms2/author/detail?v=xBNwvqFr00JloK2qyM4XitHR1JT7ASD_EIpf0YZDTbZmTOdTST4KuKP40KzHTz89vYW28rGD2NiyRBaXJdzJM-TX8Yewk0esMcEUqbszK19fhlLTW-gMXpFqy6yYyENC&uniplatform=NZKPT&language=CHS). 
-One of my papers once received those awards:
+Hello there! 😊I'm a vibrant graduate student specializing in International Relations within the sphere of Social Sciences. My academic journey has been marked by several published papers in my field, reflecting my deep interest and commitment to understanding global dynamics. you can visit [my homepage of CNKI](https://kns.cnki.net/kcms2/author/detail?v=xBNwvqFr00JloK2qyM4XitHR1JT7ASD_EIpf0YZDTbZmTOdTST4KuKP40KzHTz89vYW28rGD2NiyRBaXJdzJM-TX8Yewk0esMcEUqbszK19fhlLTW-gMXpFqy6yYyENC&uniplatform=NZKPT&language=CHS).
 
+One of my papers once received those awards:
 - Reprinted in the July 2022 Issue 7 of *Chinese Social Science Digest*
 
 - Excerpted in the full text of  *the International Trade* (Vol.1 in 2023) of Information Center for Science, Renmin University of China;
