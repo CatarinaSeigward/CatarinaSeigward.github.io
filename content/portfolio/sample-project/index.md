@@ -4,10 +4,10 @@ description: This is the description of our sample project
 date: "2019-05-02T19:47:09+02:00"
 jobDate: 2019
 work: [design, architecture]
-techs: [javascript, D3]
+techs: [AE,PR]
 designs: [Photoshop]
 thumbnail: sample-project/sample.jpg
-projectUrl: https://www.sampleorganization.org
+projectUrl: https://https://www.newtranx.com
 testimonial:
   name: John Doe
   role: CEO @Example

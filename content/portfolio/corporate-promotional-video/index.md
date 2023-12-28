@@ -3,16 +3,16 @@ title: corporate promotional video
 description: This is the description of our sample project
 date: "2019-05-02T19:47:09+02:00"
 jobDate: 2022
-work: [design, architecture]
-techs: [javascript, D3]
+work: [Video, AI]
+techs: [PR,AE]
 designs: [Photoshop]
-thumbnail: /assets/[(1203)2023-12-26-22-16-39].JPG
-projectUrl: https://www.sampleorganization.org
+thumbnail: corporate-promotional-video/sample1.JPG
+projectUrl: https://www.newtranx.com/
 testimonial:
   name: Jialun Xu
-  role: 297877533@qq.com
-  image: /Jialun-Xu.jpg
-  text: He is the founder of Panda Creative and the main mastermind behind this project.
+  role: the founder of Panda Creative
+  image: corporate-promotional-video/Jialun-Xu.png
+  text: AI is changing the world.
 ---
 
 **Project Title:** Corporate Promotional Video for New Tanx Technology
@@ -34,12 +34,10 @@ testimonial:
 
 **Distribution:** The promotional video will be featured on New Tanx Technology's website, social media platforms, and at industry events to maximize outreach and engagement with potential clients.![[(001199)2023-12-26-22-16-39]](./assets/[(001199)2023-12-26-22-16-39].JPG)
 
-![[(1200)2023-12-26-22-16-39]](./assets/[(1200)2023-12-26-22-16-39].JPG)
-
 ![[(1201)2023\-12-26-22-16-39]](./assets/[(1201)2023-12-26-22-16-39].JPG)
 
 ![[(1202)2023-12-26-22-16-39]](./assets/[(1202)2023-12-26-22-16-39].JPG)
 
-![[(1203)2023-12-26-22-16-39]](./assets/[(1203)2023-12-26-22-16-39].JPG)
+
 
 ![[(1204)2023-12-26-22-16-39]](./assets/[(1204)2023-12-26-22-16-39].JPG)
