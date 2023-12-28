@@ -11,7 +11,7 @@ pygmentsCodeFences=true
 
 [params.intro]
   main = "Hi, I'm Kaiwen Lin :wave:"
-  sub = "I'm a graduate from Chinese Academy of Social Sciences"
+  sub = "Welcome to my homepage."
 
 [params.main]
   latestPublishHeader = "My Latest Project"
@@ -41,7 +41,7 @@ pygmentsCodeFences=true
   portfolio = "project"
 
 [params.sidebar]
-  backgroundImage = '' # header background image - default "/images/default_sidebar.jpg"
+  backgroundImage = '/images/homepage1.jpg' # header background image - default "/images/default_sidebar.jpg"
   gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
   logo= '/images/s1mple.jpg' # - default "/images/23123123.jpg"
 [params.assets]
