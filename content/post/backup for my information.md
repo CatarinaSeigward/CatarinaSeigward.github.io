@@ -7,8 +7,11 @@ publishDate: "2023-12-30"
 
 
 互联网:surfer:这些年，我的微博号被封了两个了，我用了9年的贴吧号也被封了。
+Over the years, two of my Weibo accounts have been blocked, and my Tieba account, which I've used for 9 years, has also been banned.
 
 我来描述下微博和贴吧被封禁的状态：所有内容未被删除但仅自己可见，可以登录浏览但不可以与任何人互动，就像是一个互联网上的幽灵:ghost:。但这些信息就此消失在互联网就太可惜了，我想把曾经发过的有意思的内容搬运过来。
+
+Let me describe the state of being banned on Weibo and Tieba: all content remains undeleted but is only visible to me. I can log in and browse but can't interact with anyone, like a ghost on the internet 👻. But it would be a pity for these messages to just disappear from the internet. I want to transfer the interesting content I once posted over here.
 
 ## Weibo
 
