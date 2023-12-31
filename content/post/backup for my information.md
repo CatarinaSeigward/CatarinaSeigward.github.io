@@ -13,9 +13,7 @@ Over the years, two of my Weibo accounts have been blocked, and my Tieba account
 
 Let me describe the state of being banned on Weibo and Tieba: all content remains undeleted but is only visible to me. I can log in and browse but can't interact with anyone, like a ghost on the internet 👻. But it would be a pity for these messages to just disappear from the internet. I want to transfer the interesting content I once posted over here.
 
-## Weibo
-
-#### 2022-4-10
+#### 2022-4-10  weibo
 
 在reddit的老头环板块刷到了一条可爱的帖子
 
