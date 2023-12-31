@@ -35,4 +35,4 @@ OP回复
 
 > “It was a blessing to find a partner who’s amazing person and shares save hobby aka love for video games”
 
-![c4cf68b2b18c68cc0f9f6ff05d7f4b3](./assets/c4cf68b2b18c68cc0f9f6ff05d7f4b3.jpg)
+![13434234](./assets/13434234.jpg)
