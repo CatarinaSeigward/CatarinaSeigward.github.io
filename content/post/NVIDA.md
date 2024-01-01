@@ -1,12 +1,8 @@
 ---
 title: Jensen Huang and his random walk
 description: 'Posts Section'
-publishDate: "2024-1-1"
+publishDate: "2023-12-31"
 ---
-
-
-
-
 
 >22009年，AI教父Geoffrey Hinton率先用CUDA平台训练神经网络，结果大超预期，于是他主动写邮件联系英伟达，说“听着，我刚刚告诉一千名机器学习研究人员他们应该去买 Nvidia 显卡。你们能免费送我一块吗？"
 >
