@@ -4,11 +4,17 @@ description: 'Posts Section'
 publishDate: "2023-12-31"
 ---
 
+I almost chat with Chatgpt every day. I give my idea to it and it help me to generate a whole paragraph. Then I could continue to brainstorm based on what it provide to me. I hold the view that Chatgpt has increased my productivity by more than 3x . He's also been my right hand man in building this personal website! So I would like to share my tips of learning how to use it.
 
+Learning how to effectively prompt LLMs empowers users to communicate more accurately with these advanced AI systems. This skill is crucial for extracting precise and relevant information quickly, minimizing misunderstandings and inefficiencies. In professional settings, this can translate to enhanced productivity and better decision-making, as LLMs can assist in data analysis, content creation, and problem-solving.
 
-课程推荐：Google Coursera的[Prompt Engineering](https://www.coursera.org/learn/prompt-engineering/)![prompt](./assets/prompt.png)
+Moreover, as educators and learners leverage AI for personalized education, the ability to craft effective prompts becomes pivotal in facilitating tailored and meaningful learning experiences.
 
-推文推荐：[26 Prompting Tips](https://twitter.com/IntuitMachine/status/1740096923220984205) by Carlos E. Perez
+I gonna share some materials about how to learn this skill:
+
+Coursera：Google Coursera的[Prompt Engineering](https://www.coursera.org/learn/prompt-engineering/). I have finished this course on Nov 26.![prompt](./assets/prompt.png)
+
+Twitter：[26 Prompting Tips](https://twitter.com/IntuitMachine/status/1740096923220984205) by Carlos E. Perez
 
 1 - No need to be polite with LLM so there is no need to add phrases like “please”, “if you don’t mind”, “thank you”, “I would like to”, etc., and get straight to the point. 
 
@@ -38,7 +44,7 @@ o Write the [essay/text/paragraph] using simple English like you’re explaining
 
 13  -  Add to your prompt the following phrase “Ensure that your answer is unbiased and does not rely on stereotypes”.
 
-论文推荐：
+Thesis：
 [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT](https://arxiv.org/abs/2302.11382)
 
 Jules White, Quchen Fu, Sam Hays, Michael Sandborn, Carlos Olea, Henry Gilbert, Ashraf Elnashar, Jesse Spencer-Smith, Douglas C. Schmidt
