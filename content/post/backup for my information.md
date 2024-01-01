@@ -6,12 +6,12 @@ publishDate: "2023-12-30"
 
 
 
-互联网:surfer:这些年，我的微博号被封了两个了，我用了9年的贴吧号也被封了。
+​	互联网:surfer:这些年，我的微博号被封了两个了，我用了9年的贴吧号也被封了。
 Over the years, two of my Weibo accounts have been blocked, and my Tieba account, which I've used for 9 years, has also been banned.
 
-我来描述下微博和贴吧被封禁的状态：所有内容未被删除但仅自己可见，可以登录浏览但不可以与任何人互动，就像是一个互联网上的幽灵:ghost:。但这些信息就此消失在互联网就太可惜了，我想把曾经发过的有意思的内容搬运过来。
+​	我来描述下微博和贴吧被封禁的状态：所有内容未被删除但仅自己可见，可以登录浏览但不可以与任何人互动，就像是一个互联网上的幽灵:ghost:。但这些信息就此消失在互联网就太可惜了，我想把曾经发过的有意思的内容搬运过来。
 
-Let me describe the state of being banned on Weibo and Tieba: all content remains undeleted but is only visible to me. I can log in and browse but can't interact with anyone, like a ghost on the internet 👻. But it would be a pity for these messages to just disappear from the internet. I want to transfer the interesting content I once posted over here.
+​	Let me describe the state of being banned on Weibo and Tieba: all content remains undeleted but is only visible to me. I can log in and browse but can't interact with anyone, like a ghost on the internet 👻. But it would be a pity for these messages to just disappear from the internet. I want to transfer the interesting content I once posted over here.
 
 ### 2022-5-23  weibo
 
@@ -26,8 +26,8 @@ Let me describe the state of being banned on Weibo and Tieba: all content remain
 
 #### “门当户对”的婚姻更美满吗？
 	基于中国综合社会调查 2006 年的调查问卷数据，“门当户对”（双方家庭经济状况的匹配程度）并没有对婚姻满意度起到显著的提升作用，但使得夫妻双方共同决定家庭事务的概率显著更高；能显著提高对“家庭经济状况”以及“工作”的满意度，但并未显著影响到对“家庭关系”、“人际关系”、“个体健康状况”、“住 房状况”以及“所居住的社区”的满意度。此外，在 5%的显著水平上，“女性高攀”的婚姻与配偶的冲突程度更高，而“男性高攀”的婚姻并未显著影响与配偶的冲突程度，软饭硬吃看来更适用于男性。（文强,杨小军.“门当户对”的婚姻更美满吗?[J].经济评论,2020(02):125-138.）
-    
-    但如果你认可哈佛大学成人发展研究项目（Harvard Study of Adult Development）的一系列研究所得的结论，即良好的人际关系是幸福最大的来源，那么无法显著提升对终身伴侣这一最重要的亲密关系的满意度的“门当户对”可能受到了不小的挑战。
+	
+	但如果你认可哈佛大学成人发展研究项目（Harvard Study of Adult Development）的一系列研究所得的结论，即良好的人际关系是幸福最大的来源，那么无法显著提升对终身伴侣这一最重要的亲密关系的满意度的“门当户对”可能受到了不小的挑战。
 
 #### 我们时代的婚姻是离爱情越来越远还是越来越近？
 	陈志武指出，婚姻并不是为了爱情而发明，而是定居农耕社会为促进男女分工、实现资源共享、风险分担以及生子传承所演变出来的。而现在金融市场、国家福利和契约制度都更加完善，风险保障、经济功能正在从传统的婚姻与家庭中剥离，交由市场和政府去实现，这就能解放婚姻，让婚姻从侧重经济利益转行为侧重感情利益，让爱情战胜婚姻。（陈志武：《文明的逻辑：人类与风险的博弈（下）》，北京：中信出版社2022年版本P.249-250）
