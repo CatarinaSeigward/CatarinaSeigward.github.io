@@ -1,7 +1,7 @@
 ---
 title: The reason I gave up doing social science research
 description: 'Posts Section'
-publishDate: "2024-1-3"
+publishDate: "2024-1-1"
 ---
 
 
