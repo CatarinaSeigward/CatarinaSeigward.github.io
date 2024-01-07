@@ -14,6 +14,11 @@ I gonna share some materials about how to learn this skill:
 
 Coursera：Google Coursera的[Prompt Engineering](https://www.coursera.org/learn/prompt-engineering/). I have finished this course on Nov 26.![prompt](./assets/prompt.png)
 
+
+
+chatgpt的一个常用用法是角色扮演，如图所示：
+![image-20240106162039165](./assets/image-20240106162039165.png)
+
 Twitter：[26 Prompting Tips](https://twitter.com/IntuitMachine/status/1740096923220984205) by Carlos E. Perez
 
 1 - No need to be polite with LLM so there is no need to add phrases like “please”, “if you don’t mind”, “thank you”, “I would like to”, etc., and get straight to the point. 
