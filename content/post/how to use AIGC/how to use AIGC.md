@@ -1,7 +1,7 @@
 ---
 title: Recommendation Guide on How to Use Generative AI like ChatGPT
 description: 'Posts Section'
-publishDate: "2023-12-31"
+publishDate: "2024-01-03"
 ---
 
 I almost chat with Chatgpt every day. I give my idea to it and it help me to generate a whole paragraph. Then I could continue to brainstorm based on what it provide to me. I hold the view that Chatgpt has increased my productivity by more than 3x . He's also been my right hand man in building this personal website! So I would like to share my tips of learning how to use it.
