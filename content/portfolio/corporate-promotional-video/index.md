@@ -1,7 +1,7 @@
 ---
 title: corporate promotional video
 description: This is the description of our sample project
-date: "2019-05-02T19:47:09+02:00"
+date: "2019-05-02"
 jobDate: 2022
 work: [Video, AI]
 techs: [PR,AE]
