@@ -8,11 +8,7 @@ techs: [Lightroom, Photoshop]
 designs: [Photoshop]
 thumbnail: 
 projectUrl: https://jaminxu.wixsite.com/pandacreativity
-testimonial:
-  name: Jialun Xu
-  role: the founder of Panda Creative
-  image: corporate-promotional-video/Jialun-Xu.png
-  text: AI is changing the world.
+
 ---
 
 ![49cd92d3d099175a633f71580aaa473](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/49cd92d3d099175a633f71580aaa473.jpg?imageSlim)
