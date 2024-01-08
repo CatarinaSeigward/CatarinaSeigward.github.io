@@ -6,7 +6,7 @@ jobDate: 2019
 work: [design, architecture]
 techs: [AE,PR]
 designs: [Photoshop]
-thumbnail: sample-project/sample.jpg
+thumbnail: sample-project/lucky_fawn_36483_pixel_art.png
 projectUrl: https://https://www.newtranx.com
 testimonial:
   name: John Doe

@@ -1,3 +1,14 @@
+---
+title: ACADEMIC ADVENTURE
+description: This is the description of our sample project
+date: "2024-01-02T19:47:09+02:00"
+work: [Game design, programming]
+techs: [Java,Processing]
+designs: [Photoshop]
+thumbnail: Academic-Adventure/lucky_fawn_36483_pixel_art.png
+projectUrl: 
+---
+
 # 吃豆人-学术版 (ACADEMIC ADVENTURE)
 
 ## Overview
