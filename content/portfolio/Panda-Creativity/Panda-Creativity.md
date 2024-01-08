@@ -1,5 +1,5 @@
 ---
-title: Panda Creativity Studio: Capturing Moments, Creating Memories
+title: Panda Creativity Studio-Capturing Moments, Creating Memories
 description: This is the description of our sample project
 date: "2024-01-02"
 jobDate: 2022
@@ -11,10 +11,9 @@ projectUrl: https://jaminxu.wixsite.com/pandacreativity
 
 
 ---
-
+Welcome to the vibrant world of Panda Creativity Studio! 
 ![49cd92d3d099175a633f71580aaa473](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/49cd92d3d099175a633f71580aaa473.jpg?imageSlim)
-
-Welcome to the vibrant world of Panda Creativity Studio! We are a dynamic and creative photography team dedicated to capturing those special moments and turning them into timeless memories. Whether it's graduation portraits, stunning portraits, or breathtaking landscapes, our portfolio showcases our passion and talent for photography.
+We are a dynamic and creative photography team dedicated to capturing those special moments and turning them into timeless memories. Whether it's graduation portraits, stunning portraits, or breathtaking landscapes, our portfolio showcases our passion and talent for photography.
 
 Our mission goes beyond just taking pictures; it's about storytelling, conveying emotions, and empowering others to pursue their photographic dreams. What we take pride in is not only our work but also our commitment: whether you're looking for a professional photographer or eager to learn the art of photography, we are here to wholeheartedly support you.
 
