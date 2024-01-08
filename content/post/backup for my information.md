@@ -53,4 +53,4 @@ OP回复
 
 > “It was a blessing to find a partner who’s amazing person and shares save hobby aka love for video games”
 
-![13434234](./assets/13434234.jpg)
+![13434234](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/13434234.jpg?imageSlim)
