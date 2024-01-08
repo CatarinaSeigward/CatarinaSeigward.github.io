@@ -1,13 +1,12 @@
 ---
 title: Panda Creativity Studio: Capturing Moments, Creating Memories
 description: This is the description of our sample project
-date: "2023-12-24"
+date: 2023-12-24
 jobDate: 2022
 work: [Video, AI]
 techs: [Lightroom, Photoshop]
 designs: [Photoshop]
 projectUrl: https://jaminxu.wixsite.com/pandacreativity
-
 ---
 
 ![49cd92d3d099175a633f71580aaa473](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/49cd92d3d099175a633f71580aaa473.jpg?imageSlim)
