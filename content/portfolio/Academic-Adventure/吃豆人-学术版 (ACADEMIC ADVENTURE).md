@@ -89,21 +89,3 @@ For "Academic Adventure", I envision several exciting additions to enhance gamep
 
 
 
-
-笔记
-![image-20240106172840935](./assets/image-20240106172840935.png)
-
-[像素风格提示词](https://www.youtube.com/watch?v=tR94Ff7gShM)
-
-> 玻璃瓶中的金鱼提示词（Prompt） pixel art ::2 vector, A glass jar with a goldfish inside,illustration --v 5
-> 户外背包女生提示词（Prompt） pixel art ::2 vector, Carrying a big bag and wearing outdoor clothes, the girl --v 5 
-> 一起生成多物品提示词（Prompt） Pixel art ,Lovely flowers, fruits, chairs, trees,assets knolling items,vector --v 5
-> 角色多视角提示词（Prompt） Pixel Art, character sheet full-length, rpgmaker: ranger, A little girl with red hair, front view and side view and back view, game pixel assets, black background --v 5
-
-![image-20240106190315485](./assets/image-20240106190315485.png)
-
-![image-20240106190329983](./assets/image-20240106190329983.png)
-
-![image-20240106190357977](./assets/image-20240106190357977.png)
-
-![image-20240106190424416](./assets/image-20240106190424416.png)
