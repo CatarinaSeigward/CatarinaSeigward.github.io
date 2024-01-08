@@ -1,13 +1,13 @@
 ---
 title: corporate promotional video
 description: This is the description of our sample project
-date: "2019-05-02T19:47:09+02:00"
-jobDate: 2022
+date: "2023-12-24"
+jobDate: 2020-2023
 work: [Video, AI]
-techs: [PR,AE]
+techs: [Lightroom, Photoshop]
 designs: [Photoshop]
 thumbnail: corporate-promotional-video/sample1.JPG
-projectUrl: https://youtu.be/fDFt_ElefWw
+projectUrl: 
 testimonial:
   name: Jialun Xu
   role: the founder of Panda Creative
