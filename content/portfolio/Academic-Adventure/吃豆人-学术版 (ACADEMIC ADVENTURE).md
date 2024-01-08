@@ -62,6 +62,7 @@ Character Design
 ## Game Flow
 
 For "Academic Adventure", I envision several exciting additions to enhance gameplay and user engagement. These include:
+对于《学术冒险》游戏，我们设想了几项令人兴奋的新增内容，以增强游戏性和用户参与度。这些内容包括：
 
 1. **Time Extension Artifact**: A special item that extends the time limit for a level. This could be represented as a 'Time Capsule' or 'Chrono Boost', giving players extra seconds to complete their objectives.
 2. **Interactive Props**: Introducing interactive items such as 'Knowledge Scrolls' and 'Idea Lamps'. Collecting these would grant players bonus points or temporary abilities, like faster movement or temporary invulnerability to challenges.
@@ -72,8 +73,6 @@ For "Academic Adventure", I envision several exciting additions to enhance gamep
 7. **Educational Aspects**: Incorporate fun facts and trivia related to various academic fields within the game. This could be implemented via interactive elements in the game's environment or as rewards for completing levels.
 8. **Multiplayer Mode**: Introduce a cooperative or competitive multiplayer mode, where players can team up to solve challenges or compete to collect the most knowledge points.
 9. **Mobile Compatibility**: Expand the game's accessibility by developing a mobile version, allowing players to enjoy "Academic Adventure" on various devices.
-
-对于《学术冒险》游戏，我们设想了几项令人兴奋的新增内容，以增强游戏性和用户参与度。这些内容包括：
 
 1. **时间延长神器**：一种特殊的物品，可以延长关卡的时间限制。这可以被设想为“时间胶囊”或“时间加速器”，给玩家额外的秒数来完成他们的目标。
 2. **互动道具**：引入互动物品，如“知识卷轴”和“灵感灯泡”。收集这些可以给玩家奖励分数或临时能力，比如更快的移动速度或暂时对挑战免疫。
