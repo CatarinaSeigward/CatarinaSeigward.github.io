@@ -1,5 +1,5 @@
 ---
-title: Scene Modeling in Unreal Engine 5-Resilience in Ruins: A Post-Modern Warfare Tale
+title: Resilience in Ruins_A Post-Modern Warfare Tale
 description: This is the description of our sample project
 date: "2024-01-03"
 work: [ Scene Modeling]
