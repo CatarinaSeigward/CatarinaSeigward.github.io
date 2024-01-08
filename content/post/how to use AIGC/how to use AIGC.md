@@ -12,12 +12,12 @@ Moreover, as educators and learners leverage AI for personalized education, the 
 
 I gonna share some materials about how to learn this skill:
 
-Coursera：Google Coursera的[Prompt Engineering](https://www.coursera.org/learn/prompt-engineering/). I have finished this course on Nov 26.![prompt](./assets/prompt.png)
+Coursera：Google Coursera的[Prompt Engineering](https://www.coursera.org/learn/prompt-engineering/). I have finished this course on Nov 26.![prompt](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/prompt.png?imageSlim)
 
 
 
 chatgpt的一个常用用法是角色扮演，如图所示：
-![image-20240106162039165](./assets/image-20240106162039165.png)
+![image-20240106162039165](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/image-20240106162039165.png?imageSlim)
 
 Twitter：[26 Prompting Tips](https://twitter.com/IntuitMachine/status/1740096923220984205) by Carlos E. Perez
 
