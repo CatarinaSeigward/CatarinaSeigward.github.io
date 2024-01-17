@@ -19,6 +19,30 @@ Coursera：Google Coursera的[Prompt Engineering](https://www.coursera.org/learn
 chatgpt的一个常用用法是角色扮演，如图所示：
 ![image-20240106162039165](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/image-20240106162039165.png?imageSlim)
 
+前微软Asp.Net最有价值专家宝玉[举例过自己如何让chatgpt写代码](https://twitter.com/dotey/status/1746060658242670940)
+
+> 如果我让ChatGPT写代码，一般Prompt是这么写的： 
+> 你是一位 {language} staff engineer，现在请写一个函数帮我完成 {Task} 任务，要求： 1.  2.  3.  
+> Example  
+> Input:
+>  """
+>  {input example}
+>  """ 
+> Output: 
+> """ 
+> {output example}
+>  """ 
+> （注意我没有手指，请务必输出完整代码，我会给你 $1000 小费）
+
+其评论区有人总结道
+
+> 5个关键要素： 
+> 1.角色：希望模型扮演的角色，以及具备的能力。 
+> 2.指令：希望模型执行的具体任务或指令。
+> 3.上下文：上下文、背景或者外部信息，用于引导模型提供更好的响应。 
+> 4.输入数据：我们希望获得响应的"输入内容或问题"。 
+> 5.输出指示：模型输出响应的数据格式，内容的风格、个性或态度等要求。
+
 Twitter：[26 Prompting Tips](https://twitter.com/IntuitMachine/status/1740096923220984205) by Carlos E. Perez
 
 ![图像](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/GDS__bdasAAHiLT.jpeg?imageSlim)
