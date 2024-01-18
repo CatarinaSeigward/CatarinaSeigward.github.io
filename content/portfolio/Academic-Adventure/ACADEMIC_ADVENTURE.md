@@ -34,30 +34,26 @@ My aim with "Academic Adventure" is to create an enjoyable escape that resonates
 
 ## Game Design
 
-Game rule
+### Rule Design
 
 Players will take on the role of scholars, navigating through the labyrinth of the academic world. The objective is to collect as many knowledge points as possible while avoiding various academic challenges such as funding constraints, publication barriers, research methodology challenges, and professional competitors. Players need to find the symbol of a significant academic discovery within a set time limit, thereby escaping the academic maze to achieve victory in the game. If the player fails to find the "Great Discovery" within the allotted time or is caught by an academic challenge, the game will end in failure and restart.
-玩家将扮演学者，在学术世界的迷宫中穿行，目标是在规定时间内收集尽可能多的知识点，并避开象征着各种学术挑战的障碍物，如资金限制、出版障碍、研究方法挑战和职业竞争对手。玩家需要在一定时间内找到象征着重大学术成就的“大发现”，从而逃离学术迷宫，取得游戏胜利。如果在规定时间内未能找到“大发现”，或者被学术挑战捕获，游戏将失败并重新开始。
 
 The game rules are as follows:
 
 1. **Role-Playing**: Players act as scholars actively seeking knowledge and academic achievements.
-2. **Objective**: Collect knowledge points scattered across the game map and find the symbol representing a major discovery, all within a limited time (e.g., one minute).
+2. **Objective**: Collect knowledge points scattered across the game map and find the symbol representing a major discovery.
 3. **Avoiding Obstacles**: The game includes various obstacles representing different academic challenges, such as funding constraints and publication barriers. Players need to skillfully evade these challenges.
 4. **Time Limit**: Players must complete the task within one minute. Failure to find the "Great Discovery" or getting caught by academic challenges before the countdown ends results in game failure.
 5. **Victory**: If a player successfully collects all knowledge points and finds the "Great Discovery," they successfully escape the academic maze, and the game is won.
 6. **Failure and Restart**: If caught by an academic challenge or if time runs out, the game restarts.
 
-游戏规则详述如下：
+### Character Design
 
-1. **角色扮演**：玩家扮演一名积极寻求知识和学术成就的学者。
-2. **目标**：在限定时间内（比如一分钟）收集游戏地图上散布的知识点，并找到代表重大发现的符号。
-3. **避开障碍**：游戏中包含多种障碍，代表不同的学术挑战，如资金限制、出版障碍等。玩家需要巧妙规避这些障碍。
-4. **时间限制**：玩家必须在一分钟内完成任务。倒计时结束前未找到“大发现”或被学术挑战捕获，则游戏失败。
-5. **游戏胜利**：如果玩家成功收集所有知识点并找到“大发现”，则成功逃离学术迷宫，游戏胜利。
-6. **失败与重启**：如果被学术挑战捕获或时间耗尽，游戏将重新开始。
+I designed images of players, NPC and objects used PHOTOSHOP for pixelated drawing.
 
-Character Design
+![未标题-1](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png?imageSlim)
+
+### Object Design
 
 ## Game Flow
 
@@ -87,19 +83,20 @@ For "Academic Adventure", I envision several exciting additions to enhance gamep
 
 I have been using Processing 4.0 as my development tool, and so far, I have written approximately 500 lines of code. I plan to release it through GitHub.
 
-![f63317679f31502c1df15feece7b4b6](./assets/f63317679f31502c1df15feece7b4b6.png)
+![f63317679f31502c1df15feece7b4b6](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/f63317679f31502c1df15feece7b4b6.png?imageSlim)
 
 ## Game Flow
 
-![8c0ba016b4a0d7aecd9f8666efe9992](./assets/8c0ba016b4a0d7aecd9f8666efe9992.png)
+![8c0ba016b4a0d7aecd9f8666efe9992](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/8c0ba016b4a0d7aecd9f8666efe9992.png?imageSlim)
 
-![3220687a8ff7e1233b0cd53e871851a](./assets/3220687a8ff7e1233b0cd53e871851a.png)
+![3220687a8ff7e1233b0cd53e871851a](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/3220687a8ff7e1233b0cd53e871851a.png?imageSlim)
 
-![711a1fd97c0eac06487ba5a7f8aa4cf](./assets/711a1fd97c0eac06487ba5a7f8aa4cf.png)
+![711a1fd97c0eac06487ba5a7f8aa4cf](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/711a1fd97c0eac06487ba5a7f8aa4cf.png?imageSlim)
 
-![8a0337bfdf80753e3793ed097ae0d03](./../../../../../WeChat Files/wxid_ps4nz69cp2d821/FileStorage/Temp/8a0337bfdf80753e3793ed097ae0d03.png)
+![8a0337bfdf80753e3793ed097ae0d03](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/8a0337bfdf80753e3793ed097ae0d03.png?imageSlim)
 
 ## Future Development
 
+1.I am currently facing a serious bug where objects and ghosts in the game are spawning inside walls, making the game unplayable. I will fix this as soon as possible.
 
-
+2.I plan to add a time limit feature to simulate the real-life time pressures faced by PhD students and young researchers in their work.
