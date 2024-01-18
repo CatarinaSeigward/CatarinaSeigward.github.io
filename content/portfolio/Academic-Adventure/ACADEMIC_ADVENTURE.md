@@ -1,7 +1,7 @@
 ---
 title: ACADEMIC ADVENTURE
 description: This is the description of our sample project
-date: "2024-01-02"
+date: "2024-01-13"
 work: [Game design, programming]
 techs: [Java,Processing]
 designs: [Photoshop]
