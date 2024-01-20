@@ -22,7 +22,6 @@ The game incorporates humor and excitement in equal measure. Large Power-Ups in 
 ## Inspiration
 
  The game "Academic Adventure" is inspired by the intricate and often challenging journey of academic research, reminiscent of the intellectual pursuits in classic academia-themed novels and films. I've always been fascinated by the blend of challenge and discovery inherent in academic life. Haven't we all, at some point, navigated through the complex maze of scholarly endeavors, facing obstacles like funding issues, publication barriers, and methodological challenges, much like a game? This sparked the idea of transforming these academic pursuits into an engaging game experience.
-《学术冒险》这款游戏的灵感来源于学术研究的复杂而充满挑战的旅程，这种感觉让人想起经典学术主题小说和电影中的智力追求。我一直对学术生活中固有的挑战与发现的结合深感着迷。难道我们在学术探索的过程中，没有像玩游戏一样，穿越知识的迷宫，面对资金问题、出版障碍和方法论挑战这样的障碍吗？这激发了我将这些学术追求转化为一种吸引人的游戏体验的想法。
 
 Drawing from the humor found in the quirks and idiosyncrasies of academic life, "Academic Adventure" infuses a sense of light-heartedness into the serious world of research. It offers players a chance to step into the shoes of a scholar, navigating the maze of academia, collecting knowledge points, and tackling personified academic challenges. This game is an ode to every researcher's journey – a blend of ups and downs, triumphs and challenges, all wrapped up in an entertaining, cartoonish package.
 
@@ -49,6 +48,8 @@ I designed images of players, NPC and objects used PHOTOSHOP for pixelated drawi
 
 ![未标题-1](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png?imageSlim)
 
+There are three levels in this game, and player will control the same person of different stages to finish those levels. The three stages are doctoral student, assistant professor, and associate professor. Each stage will have different challenges for the player and a different collection of objectives to accomplish!
+
 ### NPC Design
 
 ![NPC](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/NPC.png?imageSlim)
@@ -60,7 +61,6 @@ I designed images of players, NPC and objects used PHOTOSHOP for pixelated drawi
 ## Game Flow
 
 For "Academic Adventure", I envision several exciting additions to enhance gameplay and user engagement. These include:
-对于《学术冒险》游戏，我们设想了几项令人兴奋的新增内容，以增强游戏性和用户参与度。这些内容包括：
 
 1. **Interactive Props**: Introducing interactive items such as 'Knowledge Scrolls' and 'Idea Lamps'. Collecting these would grant players bonus points or temporary abilities, like faster movement or temporary invulnerability to challenges.
 2. **Distraction Tools**: Implement tools like 'Confusion Papers' or 'Rhetorical Questions' to momentarily distract or pause the academic challenges. These tools give players a strategic advantage to navigate through tougher sections of the game.
@@ -70,16 +70,6 @@ For "Academic Adventure", I envision several exciting additions to enhance gamep
 6. **Educational Aspects**: Incorporate fun facts and trivia related to various academic fields within the game. This could be implemented via interactive elements in the game's environment or as rewards for completing levels.
 7. **Multiplayer Mode**: Introduce a cooperative or competitive multiplayer mode, where players can team up to solve challenges or compete to collect the most knowledge points.
 8. **Mobile Compatibility**: Expand the game's accessibility by developing a mobile version, allowing players to enjoy "Academic Adventure" on various devices.
-
-9. **时间延长神器**：一种特殊的物品，可以延长关卡的时间限制。这可以被设想为“时间胶囊”或“时间加速器”，给玩家额外的秒数来完成他们的目标。
-10. **互动道具**：引入互动物品，如“知识卷轴”和“灵感灯泡”。收集这些可以给玩家奖励分数或临时能力，比如更快的移动速度或暂时对挑战免疫。
-11. **分散注意工具**：实现如“混淆论文”或“修辞问题”之类的工具，暂时分散或暂停学术挑战。这些工具为玩家在游戏中更难的部分提供战略优势。
-12. **奖励系统扩展**：引入新的称号和成就，如“理论大师”、“研究巫师”或“创新大师”。这些称号将授予完成特定任务的玩家，比如收集一定数量的知识点或在不被抓住的情况下克服挑战。
-13. **关卡多样性**：增加新的关卡，主题包括“档案探险”，在这里玩家需要浏览历史文件，或“实验室迷宫”，探索复杂的实验室环境。每个关卡都将有独特的挑战和美学特色。
-14. **角色自定义**：允许玩家用不同的服装、配饰和工具个性化他们的学者角色，增强游戏的角色扮演方面。
-15. **教育元素**：在游戏中加入与各学术领域相关的趣味事实和小知识。这可以通过游戏环境中的互动元素实现，或作为完成关卡的奖励。
-16. **多人模式**：引入合作或竞争的多人模式，玩家可以组队解决挑战，或竞争收集最多的知识点。
-17. **移动兼容性**：开发移动版游戏，扩大游戏的可访问性，让玩家可以在不同的设备上享受《学术冒险》。
 
 ## Game Development
 
