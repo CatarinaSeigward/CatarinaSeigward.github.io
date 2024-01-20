@@ -33,3 +33,10 @@ At Panda Creativity, we believe that every moment is worth cherishing, and every
 ![DSC09067](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/DSC09067.jpg?imageSlim)
 
 ![DSC07600](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/DSC07600.jpg?imageSlim)![SJU](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/SJU.jpg?imageSlim)
+
+There is another group of photos taken by my partner,  Jialun Xu.
+![1a1eadd20f6e4365235575aa7cbd7b9](./assets/bd8226a87d2d3b3e781f01567731351.jpg)
+
+![1a1eadd20f6e4365235575aa7cbd7b9](./assets/1a1eadd20f6e4365235575aa7cbd7b9-1705762946801-3.jpg)
+
+![395a11d8b39d189b59d39638ccfadbc](./assets/395a11d8b39d189b59d39638ccfadbc.jpg)

@@ -7,8 +7,6 @@ techs: [Unreal Engine, Metahuman creator]
 designs: [Scene Modeling]
 thumbnail: UE5/UE5-first.png
 projectUrl: https://youtu.be/s9G5YZONs7g
-
-
 ---
  Welcome to my portfolio, featuring a collection of game environments I have created using Unreal Engine 5. The concept revolves around a small town in the aftermath of modern warfare. Each scene in this project is a vivid depiction of post-war desolation: a crashed commercial airliner laying in ruins, an abandoned school echoing with the silence of forgotten laughter, skyscrapers scarred by artillery, and a desolate amusement park where joy once thrived. These settings are not just digital constructs, but a canvas where I've poured my artistic vision and technical skills, aiming to capture the poignant contrast between past tranquility and present turmoil.
 
