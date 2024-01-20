@@ -9,15 +9,13 @@ thumbnail: Academic-Adventure/pac-man.png
 projectUrl: 
 ---
 
-# 吃豆人-学术版 (ACADEMIC ADVENTURE)
+# ACADEMIC ADVENTURE
 
 ## Overview
 
-《学术冒险》是一款以学术为主题重新想象的吃豆人风格游戏。该游戏从复杂而有益的学术研究之旅中汲取灵感，玩家扮演好奇心旺盛的学者，在类似迷宫的学术世界中进行探索。这款基于网络的像素游戏是在EDITOR.P5JS平台上开发的，使用Processing语言来实现其独特概念。
+**ACADEMIC ADVENTURE** is a reimagined Pac-Man style game with an academic twist. Drawing inspiration from the complex and rewarding journey of scholarly research, players assume the role of inquisitive academics, navigating through the maze-like world of academia. This web-based, pixelated game is developed on the Processing to bring its unique concept to life.
 
-**ACADEMIC ADVENTURE** is a reimagined Pac-Man style game with an academic twist. Drawing inspiration from the complex and rewarding journey of scholarly research, players assume the role of inquisitive academics, navigating through the maze-like world of academia. This web-based, pixelated game is developed on the EDITOR.P5JS platform, utilizing the Processing language to bring its unique concept to life.
-
-In **ACADEMIC ADVENTURE**, players embark on a quest for knowledge, collecting points represented by books, papers, and research data, while evading personified academic challenges. These challenges include the Funding Fiend, symbolizing financial struggles; the Peer Review Phantom, representing the rigorous process of publication; the Methodology Maze Master, embodying experimental and analytical complexities; and the Career Competitor, reflecting professional pressures within academia.
+In **ACADEMIC ADVENTURE**, players embark on a quest for knowledge, collecting points represented by papers, books, money and even hair growth medicine, while evading personified academic challenges. These challenges include the Funding Fiend, symbolizing financial struggles; the Peer Review Phantom, representing the rigorous process of publication; the Methodology Maze Master, embodying experimental and analytical complexities; and the Career Competitor, reflecting professional pressures within academia.
 
 The game incorporates humor and excitement in equal measure. Large Power-Ups in the form of groundbreaking discoveries empower players to temporarily overcome these academic obstacles, turning the tables on these challenges in a satisfying reversal of roles.
 
@@ -27,10 +25,8 @@ The game incorporates humor and excitement in equal measure. Large Power-Ups in 
 《学术冒险》这款游戏的灵感来源于学术研究的复杂而充满挑战的旅程，这种感觉让人想起经典学术主题小说和电影中的智力追求。我一直对学术生活中固有的挑战与发现的结合深感着迷。难道我们在学术探索的过程中，没有像玩游戏一样，穿越知识的迷宫，面对资金问题、出版障碍和方法论挑战这样的障碍吗？这激发了我将这些学术追求转化为一种吸引人的游戏体验的想法。
 
 Drawing from the humor found in the quirks and idiosyncrasies of academic life, "Academic Adventure" infuses a sense of light-heartedness into the serious world of research. It offers players a chance to step into the shoes of a scholar, navigating the maze of academia, collecting knowledge points, and tackling personified academic challenges. This game is an ode to every researcher's journey – a blend of ups and downs, triumphs and challenges, all wrapped up in an entertaining, cartoonish package.
-从学术生活中那些古怪和独特之处中汲取幽默感，《学术冒险》为严肃的研究世界注入了一种轻松愉快的气息。它让玩家有机会扮演一名学者，在学术迷宫中导航，收集知识点，应对化身为学术挑战的障碍。这款游戏是对每个研究者旅程的赞歌——成功与挑战的混合体，所有这些都包裹在一个有趣的、卡通风格的包装中。
 
 My aim with "Academic Adventure" is to create an enjoyable escape that resonates with anyone who has experienced the academic world, allowing them to relive, albeit in a whimsical and exaggerated manner, the exhilarating quest for knowledge and the thrill of overcoming scholarly obstacles. It's a playful tribute to the academic spirit, inviting players to revisit and realize a whimsical version of their scholarly pursuits.
-我创建《学术冒险》的目的是为了创造一种愉快的逃避现实，与任何经历过学术世界的人产生共鸣，让他们以一种夸张而古怪的方式重温那种对知识的渴望和克服学术障碍的兴奋感。这是对学术精神的一种有趣的致敬，邀请玩家重温并实现他们学术追求中的奇思妙想。
 
 ## Game Design
 
@@ -53,7 +49,13 @@ I designed images of players, NPC and objects used PHOTOSHOP for pixelated drawi
 
 ![未标题-1](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png?imageSlim)
 
+### NPC Design
+
+![NPC](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/NPC.png?imageSlim)
+
 ### Object Design
+
+![Object](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/Object.png?imageSlim)
 
 ## Game Flow
 
@@ -81,7 +83,7 @@ For "Academic Adventure", I envision several exciting additions to enhance gamep
 
 ## Game Development
 
-I have been using Processing 4.0 as my development tool, and so far, I have written approximately 500 lines of code. I plan to release it through GitHub.
+I have been using Processing 4.0 as my development tool, and so far, I have written approximately 450 lines of code. I plan to release it through GitHub.
 
 ![f63317679f31502c1df15feece7b4b6](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/f63317679f31502c1df15feece7b4b6.png?imageSlim)
 
@@ -94,6 +96,8 @@ I have been using Processing 4.0 as my development tool, and so far, I have writ
 ![711a1fd97c0eac06487ba5a7f8aa4cf](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/711a1fd97c0eac06487ba5a7f8aa4cf.png?imageSlim)
 
 ![8a0337bfdf80753e3793ed097ae0d03](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/8a0337bfdf80753e3793ed097ae0d03.png?imageSlim)
+
+![59271ef8c3c64d10969373b918898bd](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/59271ef8c3c64d10969373b918898bd.png?imageSlim)
 
 ## Future Development
 
