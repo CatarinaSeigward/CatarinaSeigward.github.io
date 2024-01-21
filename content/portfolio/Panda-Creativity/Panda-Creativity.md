@@ -45,6 +45,8 @@ There is another group of photos taken by my partner,  Jialun Xu.
 
 ![微信图片_20240121093554](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240121093554.png?imageSlim)
 
+![345dfd2ed54410025a07e5e8046d694](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/345dfd2ed54410025a07e5e8046d694.jpg?imageSlim)
+
 ![微信图片_20240121093844](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240121093844.jpg?imageSlim)
 
 ![1a1eadd20f6e4365235575aa7cbd7b9](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/bd8226a87d2d3b3e781f01567731351.jpg?imageSlim)
