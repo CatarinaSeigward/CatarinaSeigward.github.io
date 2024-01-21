@@ -73,9 +73,11 @@ For "Academic Adventure", I envision several exciting additions to enhance gamep
 
 ## Game Development
 
-I have been using Processing 4.0 as my development tool, and so far, I have written approximately 450 lines of code. I plan to release it through GitHub.
+I have utilized Processing 4.0 as my development tool and have written around 450 lines of code to date. This code has been made available on [GitHub](https://github.com/CatarinaSeigward/pac-man-academic-version-).
 
 ![f63317679f31502c1df15feece7b4b6](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/f63317679f31502c1df15feece7b4b6.png?imageSlim)
+
+![image-20240121215101597](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/image-20240121215101597.png?imageSlim)
 
 ## Game Flow
 
