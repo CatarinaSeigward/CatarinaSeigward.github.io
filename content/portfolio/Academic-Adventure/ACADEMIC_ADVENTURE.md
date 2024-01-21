@@ -1,10 +1,10 @@
 ---
 title: ACADEMIC ADVENTURE
 description: This is the description of our sample project
-date: "2024-01-03"
+date: "2024-01-20"
 work: [Game design, programming]
 techs: [Java,Processing]
-designs: [Photoshop]
+designs: [Game design, programming]
 thumbnail: Academic-Adventure/pac-man.png
 projectUrl: https://github.com/CatarinaSeigward/pac-man-academic-version-
 ---
