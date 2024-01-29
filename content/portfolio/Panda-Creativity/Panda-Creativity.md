@@ -13,8 +13,6 @@ projectUrl: https://jaminxu.wixsite.com/pandacreativity
 ---
 <p align="center">   <img src="https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/49cd92d3d099175a633f71580aaa473.jpg" alt="图片描述" width="200"/> </p>
 
-Welcome to the vibrant world of Panda Creativity Studio! 
-
 This studio is established by Jialun Xu, aiming to capturing the treasure moment of the world. I am the partner in the studio. We have accomplished a great number of tasks from various clients like undergraduate/master/ Phd students, tech company and white collar workers.
 
 We are a dynamic and creative photography team dedicated to capturing those special moments and turning them into timeless memories. Whether it's graduation portraits, stunning portraits, or breathtaking landscapes, our portfolio showcases our passion and talent for photography.
@@ -41,9 +39,13 @@ At Panda Creativity, we believe that every moment is worth cherishing, and every
 
 ![DSC00995](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/DSC00995.jpg?imageSlim)
 
+![49329048_223831208527249_886041394704214307_n](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/49329048_223831208527249_886041394704214307_n.jpg?imageSlim)
+
+![5b849553babea0a2bd](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/79bcd4447b8545b849553babea0a2bd.jpg?imageSlim)
+
 There is another group of photos taken by my partner,  Jialun Xu.
 
-![微信图片_20240121093554](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240121093554.png?imageSlim)
+![20240121093554](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240121093554.png?imageSlim)
 
 ![345dfd2ed54410025a07e5e8046d694](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/345dfd2ed54410025a07e5e8046d694.jpg?imageSlim)
 
