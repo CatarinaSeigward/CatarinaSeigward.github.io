@@ -15,7 +15,7 @@ projectUrl: https://github.com/CatarinaSeigward/pac-man-academic-version-
 
 **ACADEMIC ADVENTURE** is a reimagined Pac-Man style game with an academic twist. Drawing inspiration from the complex and rewarding journey of scholarly research, players assume the role of inquisitive academics, navigating through the maze-like world of academia. This web-based, pixelated game is developed on the Processing to bring its unique concept to life.
 
-In **ACADEMIC ADVENTURE**, players embark on a quest for knowledge, collecting points represented by papers, books, money and even hair growth medicine, while evading personified academic challenges. These challenges include the Funding Fiend, symbolizing financial struggles; the Peer Review Phantom, representing the rigorous process of publication; the Methodology Maze Master, embodying experimental and analytical complexities; and the Career Competitor, reflecting professional pressures within academia.
+In ACADEMIC ADVENTURE, players embark on a quest for knowledge, collecting points represented by papers, books, money and even hair growth medicine, while evading personified academic challenges. These challenges include the Funding Fiend, symbolizing financial struggles; the Peer Review Phantom, representing the rigorous process of publication; the Methodology Maze Master, embodying experimental and analytical complexities; and the Career Competitor, reflecting professional pressures within academia.
 
 The game incorporates humor and excitement in equal measure. Large Power-Ups in the form of groundbreaking discoveries empower players to temporarily overcome these academic obstacles, turning the tables on these challenges in a satisfying reversal of roles.
 
@@ -31,16 +31,15 @@ My aim with "Academic Adventure" is to create an enjoyable escape that resonates
 
 ### Rule Design
 
-Players will take on the role of scholars, navigating through the labyrinth of the academic world. The objective is to collect as many knowledge points as possible while avoiding various academic challenges such as funding constraints, publication barriers, research methodology challenges, and professional competitors. Players need to find the symbol of a significant academic discovery within a set time limit, thereby escaping the academic maze to achieve victory in the game. If the player fails to find the "Great Discovery" within the allotted time or is caught by an academic challenge, the game will end in failure and restart.
+Players will take on the role of scholars, navigating through the labyrinth of the academic world. The objective is to collect as many knowledge points as possible while avoiding various academic challenges such as fresh student, outstanding peers, journal editors and even stray dogs. Players need to find the symbol of a significant academic discovery, thereby escaping the academic maze to achieve victory in the game. If the player fails to find the items within the allotted time or is caught by an academic challenge, the game will end in failure and restart.
 
 The game rules are as follows:
 
 1. **Role-Playing**: Players act as scholars actively seeking knowledge and academic achievements.
-2. **Objective**: Collect knowledge points scattered across the game map and find the symbol representing a major discovery.
-3. **Avoiding Obstacles**: The game includes various obstacles representing different academic challenges, such as funding constraints and publication barriers. Players need to skillfully evade these challenges.
-4. **Time Limit**: Players must complete the task within one minute. Failure to find the "Great Discovery" or getting caught by academic challenges before the countdown ends results in game failure.
-5. **Victory**: If a player successfully collects all knowledge points and finds the "Great Discovery," they successfully escape the academic maze, and the game is won.
-6. **Failure and Restart**: If caught by an academic challenge or if time runs out, the game restarts.
+2. **Objective**: Collect knowledge points scattered across the game map, such as papers, books, money and even hair growth medicine, while evading personified academic challenges.
+3. **Avoiding Obstacles**: The game includes various obstacles representing different academic challenges, such as fresh student, outstanding peers, journal editors and even stray dogs. They will distract you.
+4. **Victory**: If a player successfully collects all items in a level, he'll advance to the next one, where you'll collect more items and evade an increased number of obstacles. There are three levels in total. This design is intended to simulate the academic career of a young scholar.
+6. **Failure and Restart**: If caught by an academic challenge, the game restarts.
 
 ### Character Design
 
@@ -57,19 +56,6 @@ There are three levels in this game, and player will control the same person of 
 ### Object Design
 
 ![Object](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/Object.png?imageSlim)
-
-## Game Flow
-
-For "Academic Adventure", I envision several exciting additions to enhance gameplay and user engagement. These include:
-
-1. **Interactive Props**: Introducing interactive items such as 'Knowledge Scrolls' and 'Idea Lamps'. Collecting these would grant players bonus points or temporary abilities, like faster movement or temporary invulnerability to challenges.
-2. **Distraction Tools**: Implement tools like 'Confusion Papers' or 'Rhetorical Questions' to momentarily distract or pause the academic challenges. These tools give players a strategic advantage to navigate through tougher sections of the game.
-3. **Reward System Expansion**: Introduce new titles and achievements like 'Theory Master', 'Research Wizard', or 'Innovation Guru'. These titles are awarded for accomplishing specific tasks, like collecting a certain number of knowledge points or overcoming challenges without getting caught.
-4. **Level Diversity**: Adding new levels with themes like 'Archival Adventure', where players navigate through historical documents, or 'Lab Labyrinth', exploring a complex laboratory setting. Each level will have unique challenges and aesthetics.
-5. **Character Customization**: Allow players to personalize their scholar character with different outfits, accessories, and tools, enhancing the role-playing aspect of the game.
-6. **Educational Aspects**: Incorporate fun facts and trivia related to various academic fields within the game. This could be implemented via interactive elements in the game's environment or as rewards for completing levels.
-7. **Multiplayer Mode**: Introduce a cooperative or competitive multiplayer mode, where players can team up to solve challenges or compete to collect the most knowledge points.
-8. **Mobile Compatibility**: Expand the game's accessibility by developing a mobile version, allowing players to enjoy "Academic Adventure" on various devices.
 
 ## Game Development
 
