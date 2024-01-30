@@ -74,5 +74,6 @@ I have utilized Processing 4.0 as my development tool and have written around 45
 ## Future Development
 
 1. **Bug Fixes**: A current issue involves game elements spawning within walls. My immediate focus is on resolving this to improve playability.
-2. **New Feature**: I'm planning to introduce a time limit to each level, mirroring the real-life pressures of academia, further enhancing the game's authenticity and challenge.
+2. **New Feature**: Implementing the planned time limit feature would be a priority. This element would not only add a layer of realism, reflecting the time pressures in academia, but also increase the game's challenge and engagement levels.
+3. **mproved NPC and Level Design**: I would like to  redesign of the NPCs. In the current version of Academic Adventure, all NPCs are portrayed as negative obstacles. However, in a real academic setting, these characters often provide crucial support and assistance to scholars. I plan to introduce friendly interaction modes with NPCs. By engaging positively with these characters, players will be able to gain additional time and rewards in the game. 
 
