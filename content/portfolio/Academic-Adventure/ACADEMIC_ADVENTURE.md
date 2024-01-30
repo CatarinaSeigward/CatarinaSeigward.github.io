@@ -1,31 +1,25 @@
 ---
-title: ACADEMIC ADVENTURE
+title: Academic Adventure
 description: This is the description of our sample project
 date: "2024-01-20"
 work: [Game design, programming]
-techs: [Java,Processing]
+techs: [Java,Processing,Photoshop]
 designs: [Game design, programming]
 thumbnail: Academic-Adventure/pac-man.png
 projectUrl: https://github.com/CatarinaSeigward/pac-man-academic-version-
 ---
 
-# ACADEMIC ADVENTURE
+# Academic Adventure
 
 ## Overview
 
-**ACADEMIC ADVENTURE** is a reimagined Pac-Man style game with an academic twist. Drawing inspiration from the complex and rewarding journey of scholarly research, players assume the role of inquisitive academics, navigating through the maze-like world of academia. This web-based, pixelated game is developed on the Processing to bring its unique concept to life.
-
-In ACADEMIC ADVENTURE, players embark on a quest for knowledge, collecting points represented by papers, books, money and even hair growth medicine, while evading personified academic challenges. These challenges include the Funding Fiend, symbolizing financial struggles; the Peer Review Phantom, representing the rigorous process of publication; the Methodology Maze Master, embodying experimental and analytical complexities; and the Career Competitor, reflecting professional pressures within academia.
-
-The game incorporates humor and excitement in equal measure. Large Power-Ups in the form of groundbreaking discoveries empower players to temporarily overcome these academic obstacles, turning the tables on these challenges in a satisfying reversal of roles.
+"Academic Adventure" is a unique game that creatively mirrors the intricate and challenging journey of academic research. Drawing inspiration from my personal experiences in academia, the game is a metaphorical representation of the hurdles and triumphs encountered in the scholarly world. The game is designed to simulate the academic career path, from a doctoral student to an associate professor. Players navigate through various levels, each representing different stages of academic growth, and are tasked with collecting knowledge points while avoiding obstacles symbolic of common academic challenges.
 
 ## Inspiration
 
- The game "Academic Adventure" is inspired by the intricate and often challenging journey of academic research, reminiscent of the intellectual pursuits in classic academia-themed novels and films. I've always been fascinated by the blend of challenge and discovery inherent in academic life. Haven't we all, at some point, navigated through the complex maze of scholarly endeavors, facing obstacles like funding issues, publication barriers, and methodological challenges, much like a game? This sparked the idea of transforming these academic pursuits into an engaging game experience.
+ The game Academic Adventure is inspired by my own experience of the intricate and often challenging journey of academic research. I've always been fascinated by the blend of challenge and discovery inherent in academic life. Haven't we all, at some point, navigated through the complex maze of scholarly endeavors, facing obstacles like funding issues, publication barriers, and methodological challenges, much like a game? This sparked the idea of transforming these academic pursuits into an engaging game experience.
 
-Drawing from the humor found in the quirks and idiosyncrasies of academic life, "Academic Adventure" infuses a sense of light-heartedness into the serious world of research. It offers players a chance to step into the shoes of a scholar, navigating the maze of academia, collecting knowledge points, and tackling personified academic challenges. This game is an ode to every researcher's journey – a blend of ups and downs, triumphs and challenges, all wrapped up in an entertaining, cartoonish package.
-
-My aim with "Academic Adventure" is to create an enjoyable escape that resonates with anyone who has experienced the academic world, allowing them to relive, albeit in a whimsical and exaggerated manner, the exhilarating quest for knowledge and the thrill of overcoming scholarly obstacles. It's a playful tribute to the academic spirit, inviting players to revisit and realize a whimsical version of their scholarly pursuits.
+My aim with Academic Adventure is to create an enjoyable escape that resonates with anyone who has experienced the academic world, allowing them to relive, albeit in a whimsical and exaggerated manner, the exhilarating quest for knowledge and the thrill of overcoming scholarly obstacles. It's a playful tribute to the academic spirit, inviting players to revisit and realize a whimsical version of their scholarly pursuits.
 
 ## Game Design
 
@@ -79,6 +73,6 @@ I have utilized Processing 4.0 as my development tool and have written around 45
 
 ## Future Development
 
-1.I am currently facing a serious bug where objects and ghosts in the game are spawning inside walls, making the game unplayable. I will fix this as soon as possible.
+1. **Bug Fixes**: A current issue involves game elements spawning within walls. My immediate focus is on resolving this to improve playability.
+2. **New Feature**: I'm planning to introduce a time limit to each level, mirroring the real-life pressures of academia, further enhancing the game's authenticity and challenge.
 
-2.I plan to add a time limit feature to simulate the real-life time pressures faced by PhD students and young researchers in their work.
