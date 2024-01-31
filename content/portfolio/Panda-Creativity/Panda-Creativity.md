@@ -13,19 +13,21 @@ projectUrl: https://jaminxu.wixsite.com/pandacreativity
 ---
 <p align="center">   <img src="https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/49cd92d3d099175a633f71580aaa473.jpg" alt="图片描述" width="200"/> </p>
 
-This studio is established by Jialun Xu, aiming to capturing the treasure moment of the world. I am the partner in the studio. We have accomplished a great number of tasks from various clients like undergraduate/master/ Phd students, tech company and white collar workers.
+This studio is established by Jialun Xu in 2018, aiming to capturing the treasure moment of the world. I joined this studio in 2020 and became a  core partner. We have accomplished a great number of tasks from various clients like undergraduate/master/ Phd students, tech company and white collar workers.
 
-We are a dynamic and creative photography team dedicated to capturing those special moments and turning them into timeless memories. Whether it's graduation portraits, stunning portraits, or breathtaking landscapes, our portfolio showcases our passion and talent for photography.
+Our photography is more than just images; it's about storytelling, emotion, and inspiring others in their photographic journey. We take pride in our commitment to both professional photography and teaching the craft. Our belief is simple: every moment is precious, and every dream is attainable. We're grateful for the trust placed in us as we journey through the fascinating world of photography.
 
-Our mission goes beyond just taking pictures; it's about storytelling, conveying emotions, and empowering others to pursue their photographic dreams. What we take pride in is not only our work but also our commitment: whether you're looking for a professional photographer or eager to learn the art of photography, we are here to wholeheartedly support you.
-
-At Panda Creativity, we believe that every moment is worth cherishing, and every dream is worth pursuing. Thank you for your trust in us as we explore the marvelous world of photography together!
-
-
+These are works that I independently planned, photographed, and edited:
 
 ![2023-1](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/2023-1.jpg?imageSlim)![819fdde82258f8e1d677d3824b64105](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/DSC02867.jpg?imageSlim)
 
-![DSC04420-1](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/DSC04420-1.jpg?imageSlim)![DSC08051](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/DSC08051.jpg?imageSlim)![DSC_2906](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/DSC_2906.jpg?imageSlim)
+![DSC04420-1](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/DSC04420-1.jpg?imageSlim)
+
+![DSC08051](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/DSC08051.jpg?imageSlim)
+
+![DSC_2906](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/DSC_2906.jpg?imageSlim)
+
+
 
 ![DSC00205](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/DSC00205.jpg?imageSlim)
 
@@ -43,7 +45,9 @@ At Panda Creativity, we believe that every moment is worth cherishing, and every
 
 ![5b849553babea0a2bd](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/79bcd4447b8545b849553babea0a2bd.jpg?imageSlim)
 
-There is another group of photos taken by my partner,  Jialun Xu.
+Camera Model: Sony A7R2; Lens: 16-28mm f/3.5; 35mm f/1.8; 85mm f/1.4.
+
+There is another group of photos taken by my team:
 
 ![20240121093554](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240121093554.png?imageSlim)
 
@@ -52,8 +56,6 @@ There is another group of photos taken by my partner,  Jialun Xu.
 ![微信图片_20240121093844](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240121093844.jpg?imageSlim)
 
 ![1a1eadd20f6e4365235575aa7cbd7b9](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/bd8226a87d2d3b3e781f01567731351.jpg?imageSlim)
-
-
 
 ![1a1eadd20f6e4365235575aa7cbd7b9](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/1a1eadd20f6e4365235575aa7cbd7b9-1705762946801-3.jpg?imageSlim)
 
