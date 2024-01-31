@@ -11,6 +11,10 @@ projectUrl: https://github.com/CatarinaSeigward/pac-man-academic-version-
 
 # Academic Adventure
 
+Date:2024-01-20
+Author: Kaiwen Lin
+Tools: Processing, Photoshop
+
 ## Overview
 
 "Academic Adventure" is a unique game that creatively mirrors the intricate and challenging journey of academic research. Drawing inspiration from my personal experiences in academia, the game is a metaphorical representation of the hurdles and triumphs encountered in the scholarly world. The game is designed to simulate the academic career path, from a doctoral student to an associate professor. Players navigate through various levels, each representing different stages of academic growth, and are tasked with collecting knowledge points while avoiding obstacles symbolic of common academic challenges.
