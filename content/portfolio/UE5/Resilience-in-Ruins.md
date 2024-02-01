@@ -10,7 +10,7 @@ projectUrl: https://youtu.be/s9G5YZONs7g
 ---
 Welcome to my portfolio, featuring a collection of game environments I have created using Unreal Engine 5. The concept revolves around a small town in the aftermath of modern warfare. 
 
-<iframe width="560" height="315" src="https://youtu.be/s9G5YZONs7g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s9G5YZONs7g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 There are some sketches I made before building the scene.
 
