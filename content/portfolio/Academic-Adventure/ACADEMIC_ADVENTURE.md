@@ -17,67 +17,60 @@ Tools: Processing, Photoshop
 
 ## Overview
 
-"Academic Adventure" is a unique game that creatively mirrors the intricate and challenging journey of academic research. Drawing inspiration from my personal experiences in academia, the game is a metaphorical representation of the hurdles and triumphs encountered in the scholarly world. The game is designed to simulate the academic career path, from a doctoral student to an associate professor. Players navigate through various levels, each representing different stages of academic growth, and are tasked with collecting knowledge points while avoiding obstacles symbolic of common academic challenges.
+Academic Adventure is a game similar to Pac-Man, reflecting the complex world of academic research. Inspired by my own academic journey, the game takes players from being a PhD student to an associate professor. In each level, representing different academic stages, players collect knowledge points and dodge obstacles that represent typical academic challenges.
 
 ## Inspiration
 
- The game Academic Adventure is inspired by my own experience of the intricate and often challenging journey of academic research. I've always been fascinated by the blend of challenge and discovery inherent in academic life. Haven't we all, at some point, navigated through the complex maze of scholarly endeavors, facing obstacles like funding issues, publication barriers, and methodological challenges, much like a game? This sparked the idea of transforming these academic pursuits into an engaging game experience.
+ The game Academic Adventure is inspired by my own experience of the intricate and often challenging journey of academic research. I've always been fascinated by the blend of challenge and discovery inherent in academic life. Haven't we all, at some point, navigated through the complex maze of scholarly endeavors, facing obstacles like funding issues, publication barriers, and methodological challenges, much like a game? 
 
-My aim with Academic Adventure is to create an enjoyable escape that resonates with anyone who has experienced the academic world, allowing them to relive, albeit in a whimsical and exaggerated manner, the exhilarating quest for knowledge and the thrill of overcoming scholarly obstacles. It's a playful tribute to the academic spirit, inviting players to revisit and realize a whimsical version of their scholarly pursuits.
+I created Academic Adventure to offer a fun experience that anyone familiar with academia can enjoy. It lets players revisit their journey of learning and overcoming academic challenges in a light-hearted way. This game playfully celebrates the spirit of academia.
 
 ## Game Design
 
 ### Rule Design
 
-Players will take on the role of scholars, navigating through the labyrinth of the academic world. The objective is to collect as many knowledge points as possible while avoiding various academic challenges such as fresh student, outstanding peers, journal editors and even stray dogs. Players need to find the symbol of a significant academic discovery, thereby escaping the academic maze to achieve victory in the game. If the player fails to find the items within the allotted time or is caught by an academic challenge, the game will end in failure and restart.
-
-The game rules are as follows:
-
-1. **Role-Playing**: Players act as scholars actively seeking knowledge and academic achievements.
-2. **Objective**: Collect knowledge points scattered across the game map, such as papers, books, money and even hair growth medicine, while evading personified academic challenges.
-3. **Avoiding Obstacles**: The game includes various obstacles representing different academic challenges, such as fresh student, outstanding peers, journal editors and even stray dogs. They will distract you.
-4. **Victory**: If a player successfully collects all items in a level, he'll advance to the next one, where you'll collect more items and evade an increased number of obstacles. There are three levels in total. This design is intended to simulate the academic career of a young scholar.
-6. **Failure and Restart**: If caught by an academic challenge, the game restarts.
+The goal is to gather knowledge points and dodge obstacles like new students, skilled peers, journal editors, and stray dogs. To win, players must find a symbol representing a major academic discovery and escape the maze. Failing to find the items in time or getting caught by an obstacle will result in a game restart.
 
 ### Character Design
 
 I designed images of players, NPC and objects used PHOTOSHOP for pixelated drawing.
 
-![未标题-1](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png?imageSlim)
+![未标题-1](./assets/未标题-1.png)
 
 There are three levels in this game, and player will control the same person of different stages to finish those levels. The three stages are doctoral student, assistant professor, and associate professor. Each stage will have different challenges for the player and a different collection of objectives to accomplish!
 
 ### NPC Design
 
-![NPC](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/NPC.png?imageSlim)
+![NPC](./assets/NPC.png)
 
 ### Object Design
 
-![Object](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/Object.png?imageSlim)
+![Object](./assets/Object.png)
 
 ## Game Development
 
 I have utilized Processing 4.0 as my development tool and have written around 450 lines of code to date. This code has been made available on [GitHub](https://github.com/CatarinaSeigward/pac-man-academic-version-).
 
-![f63317679f31502c1df15feece7b4b6](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/f63317679f31502c1df15feece7b4b6.png?imageSlim)
+![f63317679f31502c1df15feece7b4b6](./assets/f63317679f31502c1df15feece7b4b6.png)
 
-![image-20240121215101597](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/image-20240121215101597.png?imageSlim)
+![image-20240121215101597](./assets/image-20240121215101597.png)
 
 ## Game Flow
 
-![8c0ba016b4a0d7aecd9f8666efe9992](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/8c0ba016b4a0d7aecd9f8666efe9992.png?imageSlim)
+The game has three levels, each requiring players to play as scholars from different eras. To progress, collect all items in a level, facing new challenges and finding different items at each stage.
 
-![3220687a8ff7e1233b0cd53e871851a](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/3220687a8ff7e1233b0cd53e871851a.png?imageSlim)
+![8c0ba016b4a0d7aecd9f8666efe9992](./assets/8c0ba016b4a0d7aecd9f8666efe9992.png)
 
-![711a1fd97c0eac06487ba5a7f8aa4cf](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/711a1fd97c0eac06487ba5a7f8aa4cf.png?imageSlim)
+![3220687a8ff7e1233b0cd53e871851a](./assets/3220687a8ff7e1233b0cd53e871851a.png)
 
-![8a0337bfdf80753e3793ed097ae0d03](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/8a0337bfdf80753e3793ed097ae0d03.png?imageSlim)
+![711a1fd97c0eac06487ba5a7f8aa4cf](./assets/711a1fd97c0eac06487ba5a7f8aa4cf.png)
 
-![59271ef8c3c64d10969373b918898bd](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/59271ef8c3c64d10969373b918898bd.png?imageSlim)
+![8a0337bfdf80753e3793ed097ae0d03](./assets/8a0337bfdf80753e3793ed097ae0d03.png)
+
+![59271ef8c3c64d10969373b918898bd](./assets/59271ef8c3c64d10969373b918898bd.png)
 
 ## Future Development
 
-1. **Bug Fixes**: A current issue involves game elements spawning within walls. My immediate focus is on resolving this to improve playability.
-2. **New Feature**: Implementing the planned time limit feature would be a priority. This element would not only add a layer of realism, reflecting the time pressures in academia, but also increase the game's challenge and engagement levels.
-3. **mproved NPC and Level Design**: I would like to  redesign of the NPCs. In the current version of Academic Adventure, all NPCs are portrayed as negative obstacles. However, in a real academic setting, these characters often provide crucial support and assistance to scholars. I plan to introduce friendly interaction modes with NPCs. By engaging positively with these characters, players will be able to gain additional time and rewards in the game. 
+1. **New Feature**: Implementing the planned time limit feature would be a priority. This element would not only add a layer of realism, reflecting the time pressures in academia, but also increase the game's challenge and engagement levels.
+2. **mproved NPC and Level Design**: I would like to  redesign of the NPCs. In the current version of Academic Adventure, all NPCs are portrayed as negative obstacles. However, in a real academic setting, these characters often provide crucial support and assistance to scholars. I plan to introduce friendly interaction modes with NPCs. By engaging positively with these characters, players will be able to gain additional time and rewards in the game. 
 

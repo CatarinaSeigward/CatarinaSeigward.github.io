@@ -21,9 +21,9 @@ My partner:
 
 **Project Overview:** We created a dynamic and engaging corporate promotional video for New Tanx Technology, a leading technology translation company. The video showcases the company's innovative solutions in bridging language barriers in the tech industry, highlighting their expertise in translating complex technical documents and software localization.
 
-**Objective:** The primary goal of the video is to enhance New Tanx Technology's brand visibility and demonstrate their specialized skills in technology translation, emphasizing their role as a vital link in global tech communication.
-
 **My Responsibility:** Creating a shooting script, brainstorming, filming, post editing.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fDFt_ElefWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Features:**
 
