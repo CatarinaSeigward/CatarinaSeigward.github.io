@@ -35,39 +35,39 @@ The goal is to gather knowledge points and dodge obstacles like new students, sk
 
 I designed images of players, NPC and objects used PHOTOSHOP for pixelated drawing.
 
-![未标题-1](./assets/未标题-1.png)
+![未标题-1](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png?imageSlim)
 
 There are three levels in this game, and player will control the same person of different stages to finish those levels. The three stages are doctoral student, assistant professor, and associate professor. Each stage will have different challenges for the player and a different collection of objectives to accomplish!
 
 ### NPC Design
 
-![NPC](./assets/NPC.png)
+![NPC](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/NPC.png?imageSlim)
 
 ### Object Design
 
-![Object](./assets/Object.png)
+![Object](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/Object.png?imageSlim)
 
 ## Game Development
 
 I have utilized Processing 4.0 as my development tool and have written around 450 lines of code to date. This code has been made available on [GitHub](https://github.com/CatarinaSeigward/pac-man-academic-version-).
 
-![f63317679f31502c1df15feece7b4b6](./assets/f63317679f31502c1df15feece7b4b6.png)
+![f63317679f31502c1df15feece7b4b6](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/f63317679f31502c1df15feece7b4b6.png?imageSlim)
 
-![image-20240121215101597](./assets/image-20240121215101597.png)
+![image-20240121215101597](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/image-20240121215101597.png?imageSlim)
 
 ## Game Flow
 
 The game has three levels, each requiring players to play as scholars from different eras. To progress, collect all items in a level, facing new challenges and finding different items at each stage.
 
-![8c0ba016b4a0d7aecd9f8666efe9992](./assets/8c0ba016b4a0d7aecd9f8666efe9992.png)
+![8c0ba016b4a0d7aecd9f8666efe9992](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/8c0ba016b4a0d7aecd9f8666efe9992.png?imageSlim)
 
-![3220687a8ff7e1233b0cd53e871851a](./assets/3220687a8ff7e1233b0cd53e871851a.png)
+![3220687a8ff7e1233b0cd53e871851a](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/3220687a8ff7e1233b0cd53e871851a.png?imageSlim)
 
-![711a1fd97c0eac06487ba5a7f8aa4cf](./assets/711a1fd97c0eac06487ba5a7f8aa4cf.png)
+![711a1fd97c0eac06487ba5a7f8aa4cf](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/711a1fd97c0eac06487ba5a7f8aa4cf.png?imageSlim)
 
-![8a0337bfdf80753e3793ed097ae0d03](./assets/8a0337bfdf80753e3793ed097ae0d03.png)
+![8a0337bfdf80753e3793ed097ae0d03](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/8a0337bfdf80753e3793ed097ae0d03.png?imageSlim)
 
-![59271ef8c3c64d10969373b918898bd](./assets/59271ef8c3c64d10969373b918898bd.png)
+![59271ef8c3c64d10969373b918898bd](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/59271ef8c3c64d10969373b918898bd.png?imageSlim)
 
 ## Future Development
 
