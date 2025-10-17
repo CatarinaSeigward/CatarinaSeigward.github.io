@@ -5,7 +5,7 @@ description: Hey, I'm Kaiwen Lin
 
 This is my about page. :wave:
 
-I’m a graduate student at **the University of Texas at Austin**, pursuing a Master’s in **Information Science (Fall 2024 cohort)**. My studies span **algorithms, distributed systems, data warehouse design, and multimodal machine learning**, equipping me with both a strong theoretical foundation and practical programming skills in **Python, Java, and SQL**. I’m currently focusing on **data engineering** and **software development**, with a keen interest in building systems that turn complex data into meaningful insights.
+I’m a graduate student at the University of Texas at Austin, pursuing a Master’s in Information Science (Fall 2024 cohort). My studies span algorithms, distributed systems, data warehouse design, and multimodal machine learning, equipping me with both a strong theoretical foundation and practical programming skills in Python, Java, Golang and SQL. I’m currently focusing on data engineering and software development, with a keen interest in building systems that turn complex data into meaningful insights.
 
 Before transitioning into tech, I built my academic foundation in **social sciences and international relations**, where I explored how data and information shape human behavior and global governance. My research was recognized across several leading publications and institutions, including:
 
