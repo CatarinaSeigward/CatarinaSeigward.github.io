@@ -5,9 +5,10 @@ description: Hey, I'm Kaiwen Lin
 
 This is my about page. :wave:
 
-Hello there! 😊I'm a vibrant graduate student specializing in International Relations within the sphere of Social Sciences. My academic journey has been marked by several published papers in my field, reflecting my deep interest and commitment to understanding global dynamics. you can visit [my homepage of CNKI](https://kns.cnki.net/kcms2/author/detail?v=xBNwvqFr00JloK2qyM4XitHR1JT7ASD_EIpf0YZDTbZmTOdTST4KuKP40KzHTz89vYW28rGD2NiyRBaXJdzJM-TX8Yewk0esMcEUqbszK19fhlLTW-gMXpFqy6yYyENC&uniplatform=NZKPT&language=CHS).
+I’m a graduate student at **the University of Texas at Austin**, pursuing a Master’s in **Information Science (Fall 2024 cohort)**. My studies span **algorithms, distributed systems, data warehouse design, and multimodal machine learning**, equipping me with both a strong theoretical foundation and practical programming skills in **Python, Java, and SQL**. I’m currently focusing on **data engineering** and **software development**, with a keen interest in building systems that turn complex data into meaningful insights.
 
-One of my papers once received those awards:
+Before transitioning into tech, I built my academic foundation in **social sciences and international relations**, where I explored how data and information shape human behavior and global governance. My research was recognized across several leading publications and institutions, including:
+
 - Reprinted in the July 2022 Issue 7 of *Chinese Social Science Digest*
 
 - Excerpted in the full text of  *the International Trade* (Vol.1 in 2023) of Information Center for Science, Renmin University of China;
@@ -15,9 +16,13 @@ One of my papers once received those awards:
 - Recognized as "Top 10 Best Chinese Papers in Global Governance in 2022" by the *World Economic Yearbook*;
 - Included in *the Chinese Academy of Social Sciences Yearbook Volume 2023*.
 
-However, I've taken a bold step to pivot my career towards human-computer interaction and game development. After the application season concludes, I plan to compose a detailed post to share my journey through this transition. I'm currently deepening my proficiency in Python and Java, with an aspiration to master C#. Additionally, I'm utilizing tools like UE5 and Processing for development, while also harnessing design software such as Adobe Lightroom, Photoshop, and Figma. Looking ahead, I'm eager to expand my toolkit, turning my innovative ideas into reality.
+You can read more of my earlier works on [CNKI](https://kns.cnki.net/kcms2/author/detail?v=xBNwvqFr00JloK2qyM4XitHR1JT7ASD_EIpf0YZDTbZmTOdTST4KuKP40KzHTz89vYW28rGD2NiyRBaXJdzJM-TX8Yewk0esMcEUqbszK19fhlLTW-gMXpFqy6yYyENC&uniplatform=NZKPT&language=CHS).
 
-Photography is my creative escape📸. I co-founded a small studio where I channel my artistic flair into creating promotional videos and portraits for companies and individuals alike. It's a world where my lens captures stories, one frame at a time.
+My experience in social research taught me the importance of **data ethics, human-centered systems**, and how technology transforms societies—a perspective I now bring into my technical work. 
+
+Outside of academics, I’m passionate about **photography, strength training**, and **gaming**. I co-founded a small photo and video studio, producing creative visuals for companies and individuals. My hobbies—ranging from marathon running to powerlifting (480 kg total)—remind me that discipline and creativity go hand in hand. 🎮💪📸
+
+Born in **Shandong** and raised in **Shanghai**, I’ve always been drawn to the intersection of technology, culture, and human experience. Now in Austin, I’m excited to continue growing as a **data-driven engineer with a human touch**—ready to build, learn, and create impact.
 
 ![ffca5eab881761ce2025ad5973d371b](https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/ffca5eab881761ce2025ad5973d371b.jpg?imageSlim)
 
