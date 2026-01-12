@@ -1,0 +1,33 @@
+{{ partial "header" .}}
+
+  <h1 id="title"> {{ .Title }}</h1>
+  {{ .Content }}
+
+  <div class="post-list">
+    {{ range .Pages.ByPublishDate.Reverse }}
+      {{ partial "post/item" .}}
+    {{ end }}
+  </div>
+  <br>
+  <br>
+
+<p style= "font-family: 'Microsoft YaHei', sans-serif; font-size: 33px;" class="bold"> Leave a Message</p>
+
+  {{ if .Site.Config.Services.Disqus.Shortname }}
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = '{{ .Permalink }}';
+      this.page.identifier = '{{ .File.UniqueID }}';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://' + '{{ .Site.Config.Services.Disqus.Shortname }}' + '.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{{ end }}
+
+{{ partial "footer" .}}
