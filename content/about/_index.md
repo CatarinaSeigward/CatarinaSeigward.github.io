@@ -5,7 +5,11 @@ description: Hey, I'm Kaiwen Lin
 
 This is my about page. :wave:
 
-I’m a graduate student at the University of Texas at Austin, pursuing a Master’s in Information Science (Fall 2024 cohort). My studies span algorithms, distributed systems, data warehouse design, and multimodal machine learning, equipping me with both a strong theoretical foundation and practical programming skills in Python, Java, Golang and SQL. I’m currently focusing on data engineering and software development, with a keen interest in building systems that turn complex data into meaningful insights.
+I am **Kaiwen Lin**, a Data Engineering and AI enthusiast currently pursuing my Master’s in Information Science at **The University of Texas at Austin** (Class of 2026).
+
+![image-20260112142324138](./assets/image-20260112142324138.png)
+
+I specialize in building scalable data pipelines and intelligent systems. My technical foundation is built on intensive coursework in **Deep Learning, Algorithms, Data Warehousing, and Cloud Computing**, combined with a rigorous analytical background from my past career in research.
 
 Before transitioning into tech, I built my academic foundation in **social sciences and international relations**, where I explored how data and information shape human behavior and global governance. My research was recognized across several leading publications and institutions, including:
 
@@ -18,9 +22,12 @@ Before transitioning into tech, I built my academic foundation in **social scien
 
 You can read more of my earlier works on [CNKI](https://kns.cnki.net/kcms2/author/detail?v=xBNwvqFr00JloK2qyM4XitHR1JT7ASD_EIpf0YZDTbZmTOdTST4KuKP40KzHTz89vYW28rGD2NiyRBaXJdzJM-TX8Yewk0esMcEUqbszK19fhlLTW-gMXpFqy6yYyENC&uniplatform=NZKPT&language=CHS).
 
-My experience in social research taught me the importance of **data ethics, human-centered systems**, and how technology transforms societies—a perspective I now bring into my technical work. 
+### 📸 Creative & Athletic Pursuits
 
-Outside of academics, I’m passionate about **photography, strength training**, and **gaming**. I co-founded a small photo and video studio, producing creative visuals for companies and individuals. My hobbies—ranging from marathon running to powerlifting (480 kg total)—remind me that discipline and creativity go hand in hand. 🎮💪📸
+I believe that technical discipline and creative expression go hand in hand. Beyond the terminal, I wear a few different hats:
+
+- **Freelance Photographer:** I co-founded a photo studio, capturing everything from **corporate conferences** to **graduation portraits**. I enjoy the challenge of finding the perfect frame to tell a story.
+- **Fitness & Strength:** During my undergraduate years, I worked as a **part-time fitness coach**. Today, I’ve shifted from marathons (Beijing, Shanghai, Dalian) to **Powerlifting**, with a current **Total of 480 kg** (S/B/D).
 
 Born in **Shandong** and raised in **Shanghai**, I’ve always been drawn to the intersection of technology, culture, and human experience. Now in Austin, I’m excited to continue growing as a **data-driven engineer with a human touch**—ready to build, learn, and create impact.
 
