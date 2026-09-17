@@ -1,0 +1,50 @@
+{{ define "main" }}
+<section class="wrap hero">
+  <div class="hero-text">
+    <h1 class="display">{{ with .Params.heading }}{{ $.RenderString . }}{{ else }}{{ site.Title }}{{ end }}</h1>
+    {{- with site.Params.nameZh }}
+    <p class="hero-zh" lang="zh-CN">{{ . }}</p>
+    {{- end }}
+    {{- with site.Params.tagline }}
+    <p class="lead hero-tagline">{{ . }}</p>
+    {{- end }}
+    <div class="hero-body">{{ .Content }}</div>
+    {{- with site.GetPage "/about" }}
+    <a class="link hero-cta" href="{{ .RelPermalink }}">About me <span class="arrow" aria-hidden="true">→</span></a>
+    {{- end }}
+  </div>
+  {{- with resources.Get site.Params.portrait }}
+  <figure class="hero-portrait frame">
+    {{ partial "picture.html" (dict "img" . "ratio" (slice 4 5) "widths" (slice 400 680 960) "sizes" "(min-width: 821px) 340px, 70vw" "alt" (printf "Portrait of %s" site.Title) "eager" true) }}
+  </figure>
+  {{- end }}
+</section>
+
+{{- with site.GetPage "/portfolio" }}
+<section class="wrap section">
+  <div class="sec-head">
+    <h2 class="eyebrow">Selected work</h2>
+    <a class="link" href="{{ .RelPermalink }}">All work <span class="arrow" aria-hidden="true">→</span></a>
+  </div>
+  <div class="list">
+    {{- range $i, $p := .RegularPages.ByDate.Reverse }}
+    {{ partial "row.html" (dict "page" $p "n" (add $i 1) "meta" (partial "work-meta.html" $p) "level" 3) }}
+    {{- end }}
+  </div>
+</section>
+{{- end }}
+
+{{- with site.GetPage "/post" }}
+<section class="wrap section">
+  <div class="sec-head">
+    <h2 class="eyebrow">Writing</h2>
+    <a class="link" href="{{ .RelPermalink }}">All writing <span class="arrow" aria-hidden="true">→</span></a>
+  </div>
+  <div class="list">
+    {{- range first 3 .RegularPages.ByDate.Reverse }}
+    {{ partial "row.html" (dict "page" . "meta" (.Date.Format "2 January 2006") "level" 3) }}
+    {{- end }}
+  </div>
+</section>
+{{- end }}
+{{ end }}

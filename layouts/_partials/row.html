@@ -1,0 +1,36 @@
+{{- /*
+One row in a list.
+
+  page   the page (required)
+  n      optional running number
+  meta   small uppercase line above the title
+  level  heading level, default 2
+  desc   show the page description
+  thumb  show the cover image on the right
+*/ -}}
+{{- $p := .page }}
+{{- $level := .level | default 2 }}
+{{- $classes := slice "row" }}
+{{- if .n }}{{ $classes = $classes | append "has-num" }}{{ end }}
+{{- if .thumb }}{{ $classes = $classes | append "has-thumb" }}{{ end }}
+<a class="{{ delimit $classes " " }}" href="{{ $p.RelPermalink }}">
+  {{- with .n }}
+  <span class="num" aria-hidden="true">{{ printf "%02d" . }}</span>
+  {{- end }}
+  <div class="row-body">
+    {{- with .meta }}
+    <p class="tag">{{ . }}</p>
+    {{- end }}
+    {{ printf "<h%d class=\"row-title\">%s</h%d>" $level (htmlEscape $p.LinkTitle) $level | safeHTML }}
+    {{- if .desc }}{{ with $p.Description }}
+    <p class="row-desc">{{ . }}</p>
+    {{- end }}{{ end }}
+  </div>
+  {{- if .thumb }}
+  <div class="row-img frame">
+    {{- with partial "cover.html" $p }}
+    {{ partial "picture.html" (dict "img" . "ratio" (slice 3 2) "widths" (slice 360 560 720) "sizes" "(min-width: 721px) 280px, 90vw" "alt" "") }}
+    {{- end }}
+  </div>
+  {{- end }}
+</a>

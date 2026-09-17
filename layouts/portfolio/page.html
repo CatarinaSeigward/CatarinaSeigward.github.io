@@ -1,0 +1,38 @@
+{{ define "main" }}
+<article>
+  <header class="wrap-narrow art-head">
+    {{- with .Parent }}
+    <a class="link back" href="{{ .RelPermalink }}"><span class="arrow" aria-hidden="true">←</span> All {{ lower .LinkTitle }}</a>
+    {{- end }}
+    <p class="tag">{{ partial "work-meta.html" . }}</p>
+    <h1 class="art-title">{{ .Title }}</h1>
+    {{- with .Description }}
+    <p class="lead">{{ . }}</p>
+    {{- end }}
+    {{- if or .Params.techs .Params.partner }}
+    <dl class="facts">
+      {{- with .Params.techs }}
+      <div><dt>Tools</dt><dd>{{ delimit . ", " }}</dd></div>
+      {{- end }}
+      {{- with .Params.partner }}
+      <div><dt>Partner</dt><dd>{{ .name }}{{ with .role }}, {{ . }}{{ end }}</dd></div>
+      {{- end }}
+    </dl>
+    {{- end }}
+    {{- with .Params.projectUrl }}
+    <a class="btn" href="{{ . }}" target="_blank" rel="noopener">View project <span aria-hidden="true">↗</span></a>
+    {{- end }}
+  </header>
+  {{- with partial "cover.html" . }}
+  <figure class="wrap cover">
+    <div class="frame">
+      {{ partial "picture.html" (dict "img" . "ratio" (slice 3 2) "widths" (slice 720 1100 1600) "sizes" "(min-width: 1120px) 992px, 100vw" "alt" "" "eager" true) }}
+    </div>
+  </figure>
+  {{- end }}
+  <div class="wrap-narrow prose">
+    {{ .Content }}
+  </div>
+  {{ partial "pager.html" . }}
+</article>
+{{ end }}

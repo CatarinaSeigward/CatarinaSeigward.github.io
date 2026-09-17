@@ -1,0 +1,38 @@
+{{- /*
+Responsive WebP image from an image resource.
+
+  img     resource (required)
+  alt     alt text
+  widths  candidate widths, e.g. (slice 480 960 1440); never upscaled
+  ratio   optional (slice W H) to crop, e.g. (slice 3 2)
+  anchor  crop anchor, default "center"
+  sizes   sizes attribute, default "100vw"
+  eager   true for above-the-fold images
+*/ -}}
+{{- $img := .img }}
+{{- if or (ne $img.ResourceType "image") (eq $img.MediaType.SubType "svg") }}
+<img src="{{ $img.RelPermalink }}" alt="{{ .alt }}" loading="lazy" decoding="async">
+{{- else }}
+  {{- $widths := slice }}
+  {{- range .widths | default (slice 480 960 1440) }}
+    {{- if le . $img.Width }}
+      {{- $widths = $widths | append . }}
+    {{- end }}
+  {{- end }}
+  {{- if not $widths }}
+    {{- $widths = slice $img.Width }}
+  {{- end }}
+  {{- $anchor := .anchor | default "center" }}
+  {{- $ratio := .ratio }}
+  {{- $srcset := slice }}
+  {{- $src := false }}
+  {{- range $w := $widths }}
+    {{- $spec := printf "resize %dx webp" $w }}
+    {{- with $ratio }}
+      {{- $spec = printf "fill %dx%d webp %s" $w (div (mul $w (index . 1)) (index . 0)) $anchor }}
+    {{- end }}
+    {{- $src = $img.Process $spec }}
+    {{- $srcset = $srcset | append (printf "%s %dw" $src.RelPermalink $src.Width) }}
+  {{- end }}
+<img src="{{ $src.RelPermalink }}" srcset="{{ delimit $srcset ", " }}" sizes="{{ .sizes | default "100vw" }}" width="{{ $src.Width }}" height="{{ $src.Height }}" alt="{{ .alt }}"{{ if .eager }} fetchpriority="high"{{ else }} loading="lazy"{{ end }} decoding="async">
+{{- end }}

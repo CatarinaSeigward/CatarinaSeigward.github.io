@@ -1,0 +1,22 @@
+{{ define "main" }}
+<article>
+  <header class="wrap-narrow art-head">
+    {{- with .Parent }}{{ if not .IsHome }}
+    <a class="link back" href="{{ .RelPermalink }}"><span class="arrow" aria-hidden="true">←</span> All {{ lower .LinkTitle }}</a>
+    {{- end }}{{ end }}
+    {{- if eq .Section "post" }}
+    <p class="tag">{{ .Date.Format "2 January 2006" }} · {{ .ReadingTime }} min read</p>
+    {{- end }}
+    <h1 class="art-title">{{ .Title }}</h1>
+    {{- with .Description }}
+    <p class="lead">{{ . }}</p>
+    {{- end }}
+  </header>
+  <div class="wrap-narrow prose">
+    {{ .Content }}
+  </div>
+  {{- if eq .Section "post" }}
+  {{ partial "pager.html" . }}
+  {{- end }}
+</article>
+{{ end }}

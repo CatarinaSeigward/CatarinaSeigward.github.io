@@ -1,0 +1,28 @@
+{{- /* Newer / older links within the page's section, newest first. */ -}}
+{{- $pages := .CurrentSection.RegularPages.ByDate.Reverse }}
+{{- $newer := false }}
+{{- $older := false }}
+{{- range $i, $p := $pages }}
+  {{- if eq $p.RelPermalink $.RelPermalink }}
+    {{- if gt $i 0 }}{{ $newer = index $pages (sub $i 1) }}{{ end }}
+    {{- if lt (add $i 1) (len $pages) }}{{ $older = index $pages (add $i 1) }}{{ end }}
+  {{- end }}
+{{- end }}
+{{- if or $newer $older }}
+<nav class="wrap-narrow" aria-label="More">
+  <div class="pager">
+    {{- with $newer }}
+    <a class="pager-a" href="{{ .RelPermalink }}">
+      <span class="tag"><span class="arrow" aria-hidden="true">←</span> Newer</span>
+      <span class="pager-title">{{ .LinkTitle }}</span>
+    </a>
+    {{- end }}
+    {{- with $older }}
+    <a class="pager-a older" href="{{ .RelPermalink }}">
+      <span class="tag">Older <span class="arrow" aria-hidden="true">→</span></span>
+      <span class="pager-title">{{ .LinkTitle }}</span>
+    </a>
+    {{- end }}
+  </div>
+</nav>
+{{- end }}

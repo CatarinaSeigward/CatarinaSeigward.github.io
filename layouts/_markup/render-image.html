@@ -1,0 +1,15 @@
+{{- $u := urls.Parse .Destination }}
+{{- $img := false }}
+{{- if not $u.IsAbs }}
+  {{- $path := strings.TrimPrefix "./" $u.Path }}
+  {{- with .PageInner.Resources.Get $path }}
+    {{- $img = . }}
+  {{- else }}
+    {{- with resources.Get $path }}{{ $img = . }}{{ end }}
+  {{- end }}
+{{- end }}
+{{- if $img }}
+  {{- partial "picture.html" (dict "img" $img "alt" .PlainText "widths" (slice 480 960 1360) "sizes" "(min-width: 760px) 680px, 100vw") }}
+{{- else }}
+<img src="{{ .Destination | safeURL }}" alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async">
+{{- end -}}
