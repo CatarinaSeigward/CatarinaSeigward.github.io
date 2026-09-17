@@ -1,7 +1,8 @@
 ---
 title: Recommendation Guide on How to Use Generative AI like ChatGPT
-description: 'Posts Section'
-publishDate: "2024-01-03"
+description: Courses, prompt patterns and papers I recommend for getting more out of ChatGPT and other LLMs.
+date: "2024-01-03"
+aliases: [/post/how-to-use-aigc/how-to-use-aigc/]
 ---
 
 I almost chat with Chatgpt every day. I give my idea to it and it help me to generate a whole paragraph. Then I could continue to brainstorm based on what it provide to me. I hold the view that Chatgpt has increased my productivity by more than 3x . He's also been my right hand man in building this personal website! So I would like to share my tips of learning how to use it.

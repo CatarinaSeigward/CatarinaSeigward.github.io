@@ -1,19 +1,13 @@
 ---
 title: Academic Adventure
-description: This is the description of our sample project
+description: A Pac-Man–style game about academic life, taking players from PhD student to associate professor.
 date: "2024-01-20"
 work: [Game design, programming]
-techs: [Java,Processing,Photoshop]
-designs: [Game design, programming]
-thumbnail: Academic-Adventure/pac-man.png
+techs: [Java, Processing, Photoshop]
+cover: pac-man.png
 projectUrl: https://github.com/CatarinaSeigward/pac-man-academic-version-
+aliases: [/portfolio/academic-adventure/academic_adventure/]
 ---
-
-# Academic Adventure
-
-Date:2024-01-20
-Author: Kaiwen Lin
-Tools: Processing, Photoshop
 
 ## Overview
 

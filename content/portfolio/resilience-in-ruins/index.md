@@ -1,12 +1,12 @@
 ---
-title: Resilience in Ruins_A Post-Modern Warfare Tale
-description: This is the description of our sample project
+title: "Resilience in Ruins: A Post-Modern Warfare Tale"
+description: A small town in the aftermath of modern warfare, built as a game environment in Unreal Engine 5.
 date: "2024-01-03"
 work: [Scene Modeling]
 techs: [Unreal Engine]
-designs: [Scene Modeling]
-thumbnail: UE5/UE5-first.png
+cover: UE5-first.png
 projectUrl: https://youtu.be/s9G5YZONs7g
+aliases: [/portfolio/ue5/resilience-in-ruins/]
 ---
 Welcome to my portfolio, featuring a collection of game environments I have created using Unreal Engine 5. The concept revolves around a small town in the aftermath of modern warfare. 
 
