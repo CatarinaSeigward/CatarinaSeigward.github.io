@@ -1,0 +1,69 @@
+baseURL = "https://catarinaseigward.github.io/"
+locale = "en-US"
+title = "Kaiwen Lin"
+copyright = "Kaiwen Lin"
+
+enableEmoji = true
+enableRobotsTXT = true
+hasCJKLanguage = true
+disableKinds = ["taxonomy", "term"]
+
+# Publish only the processed images templates actually use, not bundle originals.
+[[cascade]]
+  [cascade.build]
+    publishResources = false
+  [cascade.target]
+    kind = "page"
+
+[params]
+  nameZh = "林凯文"
+  description = "Kaiwen Lin — data engineering and AI at UT Austin. Projects, writing and photography."
+  tagline = "Data Engineering & AI · UT Austin"
+  portrait = "images/portrait.jpg"
+
+  [[params.social]]
+    name = "Email"
+    url = "mailto:dameilin66@gmail.com"
+  [[params.social]]
+    name = "GitHub"
+    url = "https://github.com/CatarinaSeigward"
+  [[params.social]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/kaiwen-lin-aa8162284"
+  [[params.social]]
+    name = "Instagram"
+    url = "https://www.instagram.com/realkaiwenlin/"
+  [[params.social]]
+    name = "Steam"
+    url = "https://steamcommunity.com/id/dameilin45/"
+
+[menus]
+  [[menus.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 10
+  [[menus.main]]
+    name = "Work"
+    pageRef = "/portfolio"
+    weight = 20
+  [[menus.main]]
+    name = "Writing"
+    pageRef = "/post"
+    weight = 30
+  [[menus.main]]
+    name = "CV"
+    url = "/resume/Kaiwen-Lin-CV.pdf"
+    weight = 40
+
+[imaging.jpeg]
+  quality = 82
+[imaging.webp]
+  quality = 80
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5

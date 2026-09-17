@@ -1,0 +1,10 @@
+<footer class="ftr">
+  <div class="wrap ftr-in">
+    <nav class="ftr-soc" aria-label="Elsewhere">
+      {{- range site.Params.social }}
+      <a class="link" href="{{ .url }}"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>{{ .name }}</a>
+      {{- end }}
+    </nav>
+    <p class="meta">© {{ now.Year }} {{ site.Copyright }}</p>
+  </div>
+</footer>

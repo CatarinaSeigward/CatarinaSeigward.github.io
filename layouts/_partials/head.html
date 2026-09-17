@@ -1,0 +1,38 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{- $title := cond .IsHome site.Title (printf "%s — %s" .Title site.Title) }}
+{{- $desc := or .Description site.Params.description }}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F8F0F0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161213" media="(prefers-color-scheme: dark)">
+
+<meta property="og:type" content="{{ cond .IsPage `article` `website` }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{- $og := partial "cover.html" . }}
+{{- if not $og }}
+  {{- $og = resources.Get site.Params.portrait }}
+{{- end }}
+{{- with $og }}
+  {{- with .Process "fill 1200x630 jpg center" }}
+<meta property="og:image" content="{{ .Permalink }}">
+<meta property="og:image:width" content="{{ .Width }}">
+<meta property="og:image:height" content="{{ .Height }}">
+<meta name="twitter:card" content="summary_large_image">
+  {{- end }}
+{{- end }}
+
+<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+<link rel="preload" href="{{ "fonts/inter-var.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ "fonts/cormorant-garamond-400.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+{{- with resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{- end }}
+{{- with .OutputFormats.Get "rss" }}
+<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ site.Title }}">
+{{- end }}

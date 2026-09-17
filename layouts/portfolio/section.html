@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="wrap pg-head">
+  <h1 class="display sm">{{ .Title }}</h1>
+  {{- with .Content }}
+  <div class="lead pg-lead">{{ . }}</div>
+  {{- end }}
+</section>
+<section class="wrap section">
+  <div class="list">
+    {{- range $i, $p := .RegularPages.ByDate.Reverse }}
+    {{ partial "row.html" (dict "page" $p "n" (add $i 1) "meta" (partial "work-meta.html" $p) "desc" true "thumb" true) }}
+    {{- end }}
+  </div>
+</section>
+{{ end }}

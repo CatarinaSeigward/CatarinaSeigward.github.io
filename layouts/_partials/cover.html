@@ -1,0 +1,8 @@
+{{- /* Returns the image resource named by the page's `cover` front matter, or false. */ -}}
+{{- $cover := false }}
+{{- with .Params.cover }}
+  {{- with $.Resources.Get . }}
+    {{- $cover = . }}
+  {{- end }}
+{{- end }}
+{{- return $cover }}
