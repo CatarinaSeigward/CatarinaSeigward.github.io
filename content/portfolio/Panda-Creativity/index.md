@@ -1,15 +1,13 @@
 ---
 title: Panda Creativity Studio-Capturing Moments
-description: This is the description of our sample project
+description: Portraits, graduations and events photographed with Panda Creativity Studio, where I'm a core partner.
 date: "2024-01-02"
 jobDate: 2022
 work: [Photography]
 techs: [Lightroom, Photoshop]
-designs: [Photoshop]
-thumbnail: Panda-Creativity/0240204174559.png
+cover: 0240204174559.png
 projectUrl: https://jaminxu.wixsite.com/pandacreativity
-
-
+aliases: [/portfolio/panda-creativity/panda-creativity/]
 ---
 <p align="center">   <img src="https://typora-1323668464.cos.ap-hongkong.myqcloud.com/typora/49cd92d3d099175a633f71580aaa473.jpg" alt="图片描述" width="200"/> </p>
 

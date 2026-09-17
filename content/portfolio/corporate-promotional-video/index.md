@@ -1,18 +1,15 @@
 ---
-title: corporate promotional video
-description: This is the description of our sample project
+title: Corporate Promotional Video
+description: A promotional video for New Tanx Technology — scripting, filming and post-production.
 date: "2019-05-02"
 jobDate: 2022
 work: [Video]
-techs: [PR,AE]
-designs: [Video making]
-thumbnail: corporate-promotional-video/sample1.JPG
+techs: [Premiere Pro, After Effects]
+cover: sample1.JPG
 projectUrl: https://youtu.be/fDFt_ElefWw
-My partner:
+partner:
   name: Jialun Xu
-  role: the founder of Panda Creative
-  image: corporate-promotional-video/Jialun-Xu.png
-  text: AI is changing the world.
+  role: founder of Panda Creative
 ---
 
 **Project Title:** Corporate Promotional Video for New Tanx Technology
