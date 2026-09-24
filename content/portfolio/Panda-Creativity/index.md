@@ -3,6 +3,7 @@ title: Panda Creativity Studio-Capturing Moments
 description: Portraits, graduations and events photographed with Panda Creativity Studio, where I'm a core partner.
 date: "2024-01-02"
 jobDate: 2022
+group: creative
 work: [Photography]
 techs: [Lightroom, Photoshop]
 cover: 0240204174559.png

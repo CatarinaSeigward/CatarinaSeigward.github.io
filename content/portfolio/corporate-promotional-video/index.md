@@ -3,6 +3,7 @@ title: Corporate Promotional Video
 description: A promotional video for New Tanx Technology — scripting, filming and post-production.
 date: "2019-05-02"
 jobDate: 2022
+group: creative
 work: [Video]
 techs: [Premiere Pro, After Effects]
 cover: sample1.JPG
