@@ -1,0 +1,41 @@
+{{ define "main" }}
+{{- /* Pull the report from its repository at build time; fall back to the vendored copy. */ -}}
+{{- $md := "" }}
+{{- $live := false }}
+{{- with .Params.remote }}
+  {{- /* A failed fetch must not break the build: the page falls back to the vendored copy
+         and says so, instead of raising a warning that would fail CI. */ -}}
+  {{- $r := try (resources.GetRemote .) }}
+  {{- with $r.Value }}
+    {{- $md = .Content }}
+    {{- $live = true }}
+  {{- end }}
+{{- end }}
+{{- if not $md }}
+  {{- with resources.Get .Params.fallback }}
+    {{- $md = .Content }}
+  {{- end }}
+{{- end }}
+{{- /* Drop the report's own H1 — the page supplies one — and point relative images at the repo. */ -}}
+{{- $md = replaceRE `\A#\s[^\n]*\n` "" $md }}
+{{- /* Demote every heading one level so the page keeps a single H1. */ -}}
+{{- $md = replaceRE `(?m)^(#{1,5}) ` "$1# " $md }}
+{{- with .Params.rawBase }}
+  {{- $md = replaceRE `\]\((docs/[^)]+)\)` (printf "](%s$1)" .) $md }}
+{{- end }}
+<article>
+  <header class="wrap-narrow art-head">
+    {{- with .Params.projectRef }}
+    <a class="link back" href="{{ . | relURL }}"><span class="arrow" aria-hidden="true">←</span> Back to the project</a>
+    {{- end }}
+    <p class="tag">Full report · {{ if $live }}synced from GitHub{{ else }}local snapshot{{ end }}</p>
+    <h1 class="art-title">{{ .Title }}</h1>
+    {{- with .Params.sourceUrl }}
+    <p class="meta report-source">Source of truth: <a href="{{ . }}" target="_blank" rel="noopener">final_report.md</a> in the repository. This page is rebuilt daily.</p>
+    {{- end }}
+  </header>
+  <div class="wrap-narrow prose">
+    {{ .RenderString (dict "display" "block") $md }}
+  </div>
+</article>
+{{ end }}
