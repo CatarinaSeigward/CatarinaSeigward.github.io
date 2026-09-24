@@ -17,8 +17,8 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
   nameZh = "林凯文"
-  description = "Kaiwen Lin — data engineering and AI at UT Austin. Projects, writing and photography."
-  tagline = "Data Engineering & AI · UT Austin"
+  description = "Kaiwen Lin — machine learning and software engineering at UT Austin. Projects, writing and photography."
+  tagline = "MLE / SDE · UT Austin"
   portrait = "images/portrait.jpg"
 
   [[params.social]]
