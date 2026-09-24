@@ -55,6 +55,10 @@ disableKinds = ["taxonomy", "term"]
     url = "/resume/Kaiwen-Lin-CV.pdf"
     weight = 40
 
+# Remote files (the synced report) are re-fetched on every scheduled rebuild.
+[caches.getresource]
+  maxAge = "30m"
+
 [imaging.jpeg]
   quality = 82
 [imaging.webp]

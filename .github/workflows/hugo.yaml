@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  # Rebuild daily so the report page picks up changes in its source repository.
+  schedule:
+    - cron: "17 9 * * *"
   workflow_dispatch:
 
 permissions:
