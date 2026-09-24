@@ -9,24 +9,39 @@
     {{- with .Description }}
     <p class="lead">{{ . }}</p>
     {{- end }}
-    {{- if or .Params.techs .Params.partner }}
+    {{- if or .Params.techs .Params.partner .Params.team }}
     <dl class="facts">
       {{- with .Params.techs }}
       <div><dt>Tools</dt><dd>{{ delimit . ", " }}</dd></div>
+      {{- end }}
+      {{- with .Params.team }}
+      <div><dt>Team</dt><dd>{{ . }}</dd></div>
       {{- end }}
       {{- with .Params.partner }}
       <div><dt>Partner</dt><dd>{{ .name }}{{ with .role }}, {{ . }}{{ end }}</dd></div>
       {{- end }}
     </dl>
     {{- end }}
-    {{- with .Params.projectUrl }}
-    <a class="btn" href="{{ . }}" target="_blank" rel="noopener">View project <span aria-hidden="true">↗</span></a>
+    {{- if or .Params.projectUrl .Params.demoUrl .Params.reportUrl }}
+    <div class="btn-row">
+      {{- with .Params.projectUrl }}
+      <a class="btn" href="{{ . }}" target="_blank" rel="noopener">{{ if strings.Contains . "github.com" }}View on GitHub{{ else }}View project{{ end }} <span aria-hidden="true">↗</span></a>
+      {{- end }}
+      {{- with .Params.demoUrl }}
+      <a class="btn" href="{{ . }}" target="_blank" rel="noopener">Live demo <span aria-hidden="true">↗</span></a>
+      {{- end }}
+      {{- with .Params.reportUrl }}
+      <a class="btn" href="{{ . | relURL }}">Read the full report</a>
+      {{- end }}
+    </div>
     {{- end }}
   </header>
+  {{- $contain := eq .Params.coverFit "contain" }}
   {{- with partial "cover.html" . }}
   <figure class="wrap cover">
-    <div class="frame">
-      {{ partial "picture.html" (dict "img" . "ratio" (slice 3 2) "widths" (slice 720 1100 1600) "sizes" "(min-width: 1120px) 992px, 100vw" "alt" "" "eager" true) }}
+    <div class="frame{{ if $contain }} contain{{ end }}">
+      {{/* A contained cover keeps the whole image; a cropped one is filled to 3:2. */}}
+      {{ partial "picture.html" (dict "img" . "ratio" (cond $contain false (slice 3 2)) "widths" (slice 720 1100 1600) "sizes" "(min-width: 1120px) 992px, 100vw" "alt" "" "eager" true) }}
     </div>
   </figure>
   {{- end }}

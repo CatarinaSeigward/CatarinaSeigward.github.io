@@ -27,9 +27,10 @@ One row in a list.
     {{- end }}{{ end }}
   </div>
   {{- if .thumb }}
-  <div class="row-img frame">
+  {{- $contain := eq $p.Params.coverFit "contain" }}
+  <div class="row-img frame{{ if $contain }} contain{{ end }}">
     {{- with partial "cover.html" $p }}
-    {{ partial "picture.html" (dict "img" . "ratio" (slice 3 2) "widths" (slice 360 560 720) "sizes" "(min-width: 721px) 280px, 90vw" "alt" "") }}
+    {{ partial "picture.html" (dict "img" . "ratio" (cond $contain false (slice 3 2)) "widths" (slice 360 560 720) "sizes" "(min-width: 721px) 280px, 90vw" "alt" "") }}
     {{- end }}
   </div>
   {{- end }}

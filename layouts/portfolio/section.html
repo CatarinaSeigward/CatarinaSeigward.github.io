@@ -6,10 +6,21 @@
   {{- end }}
 </section>
 <section class="wrap section">
-  <div class="list">
-    {{- range $i, $p := .RegularPages.ByDate.Reverse }}
-    {{ partial "row.html" (dict "page" $p "n" (add $i 1) "meta" (partial "work-meta.html" $p) "desc" true "thumb" true) }}
-    {{- end }}
+  {{- $pages := .RegularPages.ByDate.Reverse }}
+  {{- $n := 0 }}
+  {{- range $group := slice (dict "key" "research" "label" "Research & engineering") (dict "key" "creative" "label" "Creative") }}
+    {{- $inGroup := where $pages "Params.group" $group.key }}
+    {{- with $inGroup }}
+  <div class="group">
+    <h2 class="eyebrow group-head">{{ $group.label }}</h2>
+    <div class="list">
+      {{- range . }}
+      {{- $n = add $n 1 }}
+      {{ partial "row.html" (dict "page" . "n" $n "meta" (partial "work-meta.html" .) "desc" true "thumb" true "level" 3) }}
+      {{- end }}
+    </div>
   </div>
+    {{- end }}
+  {{- end }}
 </section>
 {{ end }}

@@ -27,7 +27,7 @@
     <a class="link" href="{{ .RelPermalink }}">All work <span class="arrow" aria-hidden="true">→</span></a>
   </div>
   <div class="list">
-    {{- range $i, $p := .RegularPages.ByDate.Reverse }}
+    {{- range $i, $p := first 5 .RegularPages.ByDate.Reverse }}
     {{ partial "row.html" (dict "page" $p "n" (add $i 1) "meta" (partial "work-meta.html" $p) "level" 3) }}
     {{- end }}
   </div>
