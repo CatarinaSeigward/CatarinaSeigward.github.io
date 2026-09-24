@@ -2,6 +2,7 @@
 title: Academic Adventure
 description: A Pac-Man–style game about academic life, taking players from PhD student to associate professor.
 date: "2024-01-20"
+group: creative
 work: [Game design, programming]
 techs: [Java, Processing, Photoshop]
 cover: pac-man.png

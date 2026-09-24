@@ -2,6 +2,7 @@
 title: "Resilience in Ruins: A Post-Modern Warfare Tale"
 description: A small town in the aftermath of modern warfare, built as a game environment in Unreal Engine 5.
 date: "2024-01-03"
+group: creative
 work: [Scene Modeling]
 techs: [Unreal Engine]
 cover: UE5-first.png
