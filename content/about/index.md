@@ -3,13 +3,19 @@ title: About
 description: Hey, I'm Kaiwen Lin
 ---
 
-This is my about page. :wave:
-
-I am **Kaiwen Lin**, a Data Engineering and AI enthusiast currently pursuing my Master’s in Information Science at **The University of Texas at Austin** (Class of 2026).
+I am **Kaiwen Lin** :wave:, finishing a Master’s in Information Science at **The University of Texas at Austin** (Class of 2026). I work on machine learning — lately on LLM agents, and on what happens to models when they meet the constraints of the systems they run on.
 
 ![image-20260112142324138](./assets/image-20260112142324138.png)
 
-I specialize in building scalable data pipelines and intelligent systems. My technical foundation is built on intensive coursework in **Deep Learning, Algorithms, Data Warehousing, and Cloud Computing**, combined with a rigorous analytical background from my past career in research.
+Most of my recent work falls into two halves. One is **agents and the way we measure them**: tool-using LLM agents built with LangGraph, red-teaming them for prompt injection, aligning small models with SFT, DPO and GRPO, and — the part I find most interesting — checking whether the metrics and LLM judges scoring all of it measure what they claim to. A training curve that looks perfect while the behaviour underneath degrades is a more common outcome than it should be.
+
+The other is **models under real constraints**: quantisation and hardware-aware training, what accuracy costs when the arithmetic happens in analog, and CUDA kernels where the bottleneck is memory access rather than FLOPs. Underneath both sits the data engineering I started in — pipelines, warehouses and the unglamorous work of making data trustworthy before a model ever sees it.
+
+- **Machine learning** — PyTorch, LangGraph, HuggingFace TRL (SFT / DPO / GRPO), QLoRA, ModernBERT, YOLOv8, quantisation and hardware-aware training, red-teaming and evaluation
+- **Systems** — CUDA, C++, Go, Python
+- **Data & cloud** — Airflow, Snowflake, Spark, dbt, BigQuery, AWS S3, Docker, Kubernetes
+
+The projects behind all of this are in [Work](/portfolio/).
 
 Before transitioning into tech, I built my academic foundation in **social sciences and international relations**, where I explored how data and information shape human behavior and global governance. My research was recognized across several leading publications and institutions, including:
 
