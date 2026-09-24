@@ -54,6 +54,12 @@ disableKinds = ["taxonomy", "term"]
     name = "CV"
     url = "/resume/Kaiwen-Lin-CV.pdf"
     weight = 40
+    [menus.main.params]
+      # Hugo lowercases menu URLs, which 404s on a case-sensitive host,
+      # so the link is taken from this param verbatim.
+      href = "/resume/Kaiwen-Lin-CV.pdf"
+      # A PDF: open it in a new tab so the site stays put.
+      newTab = true
 
 # Remote files (the synced report) are re-fetched on every scheduled rebuild.
 [caches.getresource]

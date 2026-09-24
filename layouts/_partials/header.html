@@ -13,7 +13,7 @@
         {{- with .Page }}
           {{- $active = or $active ($page.IsDescendant .) }}
         {{- end }}
-      <a class="nav-a{{ if $active }} active{{ end }}" href="{{ .URL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a>
+      <a class="nav-a{{ if $active }} active{{ end }}" href="{{ or .Params.href .URL }}"{{ if $active }} aria-current="page"{{ end }}{{ if .Params.newTab }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}{{ if .Params.newTab }} <span class="nav-ext" aria-hidden="true">↗</span>{{ end }}</a>
       {{- end }}
     </nav>
   </div>
