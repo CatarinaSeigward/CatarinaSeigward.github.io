@@ -22,13 +22,16 @@
       {{- end }}
     </dl>
     {{- end }}
-    {{- if or .Params.projectUrl .Params.demoUrl .Params.reportUrl }}
+    {{- if or .Params.projectUrl .Params.demoUrl .Params.videoUrl .Params.reportUrl }}
     <div class="btn-row">
       {{- with .Params.projectUrl }}
       <a class="btn" href="{{ . }}" target="_blank" rel="noopener">{{ if strings.Contains . "github.com" }}View on GitHub{{ else }}View project{{ end }} <span aria-hidden="true">↗</span></a>
       {{- end }}
       {{- with .Params.demoUrl }}
       <a class="btn" href="{{ . }}" target="_blank" rel="noopener">Live demo <span aria-hidden="true">↗</span></a>
+      {{- end }}
+      {{- with .Params.videoUrl }}
+      <a class="btn" href="{{ . }}" target="_blank" rel="noopener">Watch the demo <span aria-hidden="true">↗</span></a>
       {{- end }}
       {{- with .Params.reportUrl }}
       <a class="btn" href="{{ . | relURL }}">Read the full report</a>
@@ -41,7 +44,7 @@
   <figure class="wrap cover">
     <div class="frame{{ if $contain }} contain{{ end }}">
       {{/* A contained cover keeps the whole image; a cropped one is filled to 3:2. */}}
-      {{ partial "picture.html" (dict "img" . "ratio" (cond $contain false (slice 3 2)) "widths" (slice 720 1100 1600) "sizes" "(min-width: 1120px) 992px, 100vw" "alt" "" "eager" true) }}
+      {{ partial "picture.html" (dict "img" . "ratio" (cond $contain false (slice 3 2)) "anchor" ($.Params.coverAnchor | default "center") "widths" (slice 720 1100 1600) "sizes" "(min-width: 1120px) 992px, 100vw" "alt" "" "eager" true) }}
     </div>
   </figure>
   {{- end }}

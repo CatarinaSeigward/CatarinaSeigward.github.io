@@ -30,7 +30,7 @@ One row in a list.
   {{- $contain := eq $p.Params.coverFit "contain" }}
   <div class="row-img frame{{ if $contain }} contain{{ end }}">
     {{- with partial "cover.html" $p }}
-    {{ partial "picture.html" (dict "img" . "ratio" (cond $contain false (slice 3 2)) "widths" (slice 360 560 720) "sizes" "(min-width: 721px) 280px, 90vw" "alt" "") }}
+    {{ partial "picture.html" (dict "img" . "ratio" (cond $contain false (slice 3 2)) "anchor" ($p.Params.coverAnchor | default "center") "widths" (slice 360 560 720) "sizes" "(min-width: 721px) 280px, 90vw" "alt" "") }}
     {{- end }}
   </div>
   {{- end }}
