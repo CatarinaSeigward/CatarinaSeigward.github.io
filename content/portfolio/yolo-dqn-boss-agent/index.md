@@ -8,7 +8,7 @@ techs: [PyTorch, YOLOv8, OpenCV, Win32 API]
 cover: capture.webp
 coverAnchor: left
 projectUrl: https://github.com/CatarinaSeigward/YOLOPlusDQN
-videoUrl: https://youtu.be/YiUaxSVvTTU
+videoUrl: "#demo"
 ---
 
 An action game boss is a small, brutal reinforcement learning problem: the state is whatever is on
@@ -40,7 +40,9 @@ attacks is a well-timed dodge, a larger action space mostly buys exploration cos
 | Loop rate | ~10 FPS, limited by game interaction |
 | Outcome after training | Beats the boss consistently |
 
-A full fight is in the [demo video](https://youtu.be/YiUaxSVvTTU).
+A full fight, start to finish:
+
+{{< video id="YiUaxSVvTTU" title="Demo: the trained agent fighting the Wandering Wight" >}}
 
 The limits are honest ones: it needs a YOLO model trained for each specific boss, it is Windows-only
 because of the DirectX screen capture, and it assumes a lock-on camera. The obvious next step is
