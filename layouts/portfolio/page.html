@@ -31,7 +31,11 @@
       <a class="btn" href="{{ . }}" target="_blank" rel="noopener">Live demo <span aria-hidden="true">↗</span></a>
       {{- end }}
       {{- with .Params.videoUrl }}
+      {{- if hasPrefix . "#" }}
+      <a class="btn" href="{{ . }}">Watch the demo <span aria-hidden="true">↓</span></a>
+      {{- else }}
       <a class="btn" href="{{ . }}" target="_blank" rel="noopener">Watch the demo <span aria-hidden="true">↗</span></a>
+      {{- end }}
       {{- end }}
       {{- with .Params.reportUrl }}
       <a class="btn" href="{{ . | relURL }}">Read the full report</a>
