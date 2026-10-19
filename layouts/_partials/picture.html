@@ -14,13 +14,17 @@ Responsive WebP image from an image resource.
 <img src="{{ $img.RelPermalink }}" alt="{{ .alt }}" loading="lazy" decoding="async">
 {{- else }}
   {{- $widths := slice }}
+  {{- $capped := false }}
   {{- range .widths | default (slice 480 960 1440) }}
     {{- if le . $img.Width }}
       {{- $widths = $widths | append . }}
+    {{- else }}
+      {{- $capped = true }}
     {{- end }}
   {{- end }}
-  {{- if not $widths }}
-    {{- $widths = slice $img.Width }}
+  {{- /* A width was skipped as too large: serve the source's own width as the top candidate. */ -}}
+  {{- if and $capped (not (in $widths $img.Width)) }}
+    {{- $widths = $widths | append $img.Width }}
   {{- end }}
   {{- $anchor := .anchor | default "center" }}
   {{- $ratio := .ratio }}
