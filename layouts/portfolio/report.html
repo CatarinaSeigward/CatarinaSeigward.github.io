@@ -24,14 +24,17 @@
   {{- $md = replaceRE `\]\((docs/[^)]+)\)` (printf "](%s$1)" .) $md }}
 {{- end }}
 <article>
-  <header class="wrap-narrow art-head">
+  <header class="wrap-narrow art-head" data-animate="intro">
     {{- with .Params.projectRef }}
-    <a class="link back" href="{{ . | relURL }}"><span class="arrow" aria-hidden="true">←</span> Back to the project</a>
+    <a class="btn btn-ghost btn-sm back" href="{{ . | relURL }}">{{ partial "icon.html" (dict "name" "arrow-left" "class" "icon-prev") }} Back to the project</a>
     {{- end }}
-    <p class="tag">Full report · {{ if $live }}synced from GitHub{{ else }}local snapshot{{ end }}</p>
+    <div class="badges">
+      <span class="badge badge-outline">Full report</span>
+      <span class="badge badge-secondary">{{ partial "icon.html" "refresh-cw" }}{{ if $live }}Synced from GitHub{{ else }}Local snapshot{{ end }}</span>
+    </div>
     <h1 class="art-title">{{ .Title }}</h1>
     {{- with .Params.sourceUrl }}
-    <p class="meta report-source">Source of truth: <a href="{{ . }}" target="_blank" rel="noopener">final_report.md</a> in the repository. This page is rebuilt daily.</p>
+    <p class="report-source">Source of truth: <a href="{{ . }}" target="_blank" rel="noopener">final_report.md</a> in the repository. This page is rebuilt daily.</p>
     {{- end }}
   </header>
   <div class="wrap-narrow prose">

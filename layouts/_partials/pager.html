@@ -10,17 +10,17 @@
 {{- end }}
 {{- if or $newer $older }}
 <nav class="wrap-narrow" aria-label="More">
-  <div class="pager">
+  <div class="pager" data-animate="stagger">
     {{- with $newer }}
-    <a class="pager-a" href="{{ .RelPermalink }}">
-      <span class="tag"><span class="arrow" aria-hidden="true">←</span> Newer</span>
-      <span class="pager-title">{{ .LinkTitle }}</span>
+    <a class="card" href="{{ .RelPermalink }}">
+      <span class="pager-label">{{ partial "icon.html" "arrow-left" }} Newer</span>
+      <span class="card-title">{{ .LinkTitle }}</span>
     </a>
     {{- end }}
     {{- with $older }}
-    <a class="pager-a older" href="{{ .RelPermalink }}">
-      <span class="tag">Older <span class="arrow" aria-hidden="true">→</span></span>
-      <span class="pager-title">{{ .LinkTitle }}</span>
+    <a class="card older" href="{{ .RelPermalink }}">
+      <span class="pager-label">Older {{ partial "icon.html" "arrow-right" }}</span>
+      <span class="card-title">{{ .LinkTitle }}</span>
     </a>
     {{- end }}
   </div>

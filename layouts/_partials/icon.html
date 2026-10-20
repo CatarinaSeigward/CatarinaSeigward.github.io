@@ -1,0 +1,22 @@
+{{- /*
+Inline a Lucide icon from assets/icons (lucide-static 1.60.0, ISC — see assets/icons/LICENSE).
+
+  {{ partial "icon.html" "arrow-right" }}
+  {{ partial "icon.html" (dict "name" "arrow-right" "class" "icon-next") }}
+
+The SVG is decorative (aria-hidden); size comes from CSS (.btn, .badge, …), 16px by default.
+*/ -}}
+{{- $name := . }}
+{{- $class := "" }}
+{{- if reflect.IsMap . }}
+  {{- $name = .name }}
+  {{- $class = .class | default "" }}
+{{- end }}
+{{- with resources.Get (printf "icons/%s.svg" $name) }}
+  {{- $svg := .Content | replaceRE `<!--[\s\S]*?-->` "" | replaceRE `\s+` " " | strings.TrimSpace }}
+  {{- $svg = replace $svg `width="24" height="24"` `width="16" height="16"` }}
+  {{- $svg = replace $svg `class="lucide lucide-` (printf `aria-hidden="true" focusable="false" class="icon %s lucide-` $class) }}
+  {{- $svg | safeHTML }}
+{{- else }}
+  {{- errorf "icon.html: no icon named %q in assets/icons" $name }}
+{{- end -}}
