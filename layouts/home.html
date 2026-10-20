@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="wrap hero">
-  <div class="hero-text" data-animate="intro">
+  <div class="hero-text">
     <h1 class="display">{{ with .Params.heading }}{{ $.RenderString . }}{{ else }}{{ site.Title }}{{ end }}</h1>
     {{- with site.Params.nameZh }}
     <p class="hero-zh" lang="zh-CN">{{ . }}</p>
@@ -9,18 +9,13 @@
     <p class="lead hero-tagline">{{ . }}</p>
     {{- end }}
     <div class="hero-body">{{ .Content }}</div>
-    <div class="btn-row">
-      {{- with site.GetPage "/about" }}
-      <a class="btn btn-default" href="{{ .RelPermalink }}">About me {{ partial "icon.html" (dict "name" "arrow-right" "class" "icon-next") }}</a>
-      {{- end }}
-      {{- with site.Params.cv }}
-      <a class="btn btn-outline" href="{{ . }}" target="_blank" rel="noopener">{{ partial "icon.html" "file-text" }} CV</a>
-      {{- end }}
-    </div>
+    {{- with site.GetPage "/about" }}
+    <a class="link hero-cta" href="{{ .RelPermalink }}">About me <span class="arrow" aria-hidden="true">→</span></a>
+    {{- end }}
   </div>
   {{- with resources.Get site.Params.portrait }}
-  <figure class="hero-portrait frame" data-animate="intro">
-    {{ partial "picture.html" (dict "img" . "ratio" (slice 4 5) "widths" (slice 400 560 840) "sizes" "(min-width: 761px) 280px, 260px" "alt" (printf "Portrait of %s" site.Title) "eager" true) }}
+  <figure class="hero-portrait frame">
+    {{ partial "picture.html" (dict "img" . "ratio" (slice 4 5) "widths" (slice 400 680 960) "sizes" "(min-width: 821px) 340px, 70vw" "alt" (printf "Portrait of %s" site.Title) "eager" true) }}
   </figure>
   {{- end }}
 </section>
@@ -28,12 +23,12 @@
 {{- with site.GetPage "/portfolio" }}
 <section class="wrap section">
   <div class="sec-head">
-    <h2 class="sec-title">Selected work</h2>
-    <a class="btn btn-ghost btn-sm" href="{{ .RelPermalink }}">All work {{ partial "icon.html" (dict "name" "arrow-right" "class" "icon-next") }}</a>
+    <h2 class="eyebrow">Selected work</h2>
+    <a class="link" href="{{ .RelPermalink }}">All work <span class="arrow" aria-hidden="true">→</span></a>
   </div>
-  <div class="card list-card" data-animate="stagger">
-    {{- range first 5 .RegularPages.ByDate.Reverse }}
-    {{ partial "list-item.html" (dict "page" .) }}
+  <div class="list">
+    {{- range $i, $p := first 5 .RegularPages.ByDate.Reverse }}
+    {{ partial "row.html" (dict "page" $p "n" (add $i 1) "meta" (partial "work-meta.html" $p) "level" 3) }}
     {{- end }}
   </div>
 </section>
@@ -42,12 +37,12 @@
 {{- with site.GetPage "/post" }}
 <section class="wrap section">
   <div class="sec-head">
-    <h2 class="sec-title">Writing</h2>
-    <a class="btn btn-ghost btn-sm" href="{{ .RelPermalink }}">All writing {{ partial "icon.html" (dict "name" "arrow-right" "class" "icon-next") }}</a>
+    <h2 class="eyebrow">Writing</h2>
+    <a class="link" href="{{ .RelPermalink }}">All writing <span class="arrow" aria-hidden="true">→</span></a>
   </div>
-  <div class="card list-card" data-animate="stagger">
+  <div class="list">
     {{- range first 3 .RegularPages.ByDate.Reverse }}
-    {{ partial "list-item.html" (dict "page" .) }}
+    {{ partial "row.html" (dict "page" . "meta" (.Date.Format "2 January 2006") "level" 3) }}
     {{- end }}
   </div>
 </section>

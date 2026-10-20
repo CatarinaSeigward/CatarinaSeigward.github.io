@@ -1,14 +1,14 @@
 {{ define "main" }}
-<section class="wrap pg-head" data-animate="intro">
+<section class="wrap pg-head">
   <h1 class="display sm">{{ .Title }}</h1>
   {{- with .Content }}
   <div class="lead pg-lead">{{ . }}</div>
   {{- end }}
 </section>
 <section class="wrap section">
-  <div class="card list-card" data-animate="stagger">
-    {{- range .RegularPages.ByDate.Reverse }}
-    {{ partial "list-item.html" (dict "page" . "level" 2 "desc" true) }}
+  <div class="list">
+    {{- range $i, $p := .RegularPages.ByDate.Reverse }}
+    {{ partial "row.html" (dict "page" $p "n" (add $i 1) "meta" ($p.Date.Format "2 January 2006") "desc" true) }}
     {{- end }}
   </div>
 </section>

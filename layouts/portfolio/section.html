@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="wrap pg-head" data-animate="intro">
+<section class="wrap pg-head">
   <h1 class="display sm">{{ .Title }}</h1>
   {{- with .Content }}
   <div class="lead pg-lead">{{ . }}</div>
@@ -7,16 +7,16 @@
 </section>
 <section class="wrap section">
   {{- $pages := .RegularPages.ByDate.Reverse }}
+  {{- $n := 0 }}
   {{- range $group := slice (dict "key" "research" "label" "Research & engineering") (dict "key" "creative" "label" "Creative") }}
-    {{- with where $pages "Params.group" $group.key }}
+    {{- $inGroup := where $pages "Params.group" $group.key }}
+    {{- with $inGroup }}
   <div class="group">
-    <div class="sec-head">
-      <h2 class="sec-title">{{ $group.label }}</h2>
-      <span class="badge badge-secondary">{{ len . }}</span>
-    </div>
-    <div class="grid" data-animate="stagger">
+    <h2 class="eyebrow group-head">{{ $group.label }}</h2>
+    <div class="list">
       {{- range . }}
-      {{ partial "project-card.html" (dict "page" .) }}
+      {{- $n = add $n 1 }}
+      {{ partial "row.html" (dict "page" . "n" $n "meta" (partial "work-meta.html" .) "desc" true "thumb" true "level" 3) }}
       {{- end }}
     </div>
   </div>

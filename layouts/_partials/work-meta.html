@@ -1,0 +1,7 @@
+{{- /* Returns "Category · Category · Year" for a portfolio page. */ -}}
+{{- $parts := slice }}
+{{- range .Params.work }}
+  {{- $parts = $parts | append (title .) }}
+{{- end }}
+{{- $parts = $parts | append (string (or .Params.jobDate .Date.Year)) }}
+{{- return delimit $parts " · " }}

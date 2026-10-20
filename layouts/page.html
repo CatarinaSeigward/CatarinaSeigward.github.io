@@ -1,14 +1,11 @@
 {{ define "main" }}
 <article>
-  <header class="wrap-narrow art-head" data-animate="intro">
+  <header class="wrap-narrow art-head">
     {{- with .Parent }}{{ if not .IsHome }}
-    <a class="btn btn-ghost btn-sm back" href="{{ .RelPermalink }}">{{ partial "icon.html" (dict "name" "arrow-left" "class" "icon-prev") }} All {{ lower .LinkTitle }}</a>
+    <a class="link back" href="{{ .RelPermalink }}"><span class="arrow" aria-hidden="true">←</span> All {{ lower .LinkTitle }}</a>
     {{- end }}{{ end }}
     {{- if eq .Section "post" }}
-    <p class="meta">
-      <span>{{ partial "icon.html" "calendar" }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time></span>
-      <span>{{ partial "icon.html" "clock" }}{{ .ReadingTime }} min read</span>
-    </p>
+    <p class="tag">{{ .Date.Format "2 January 2006" }} · {{ .ReadingTime }} min read</p>
     {{- end }}
     <h1 class="art-title">{{ .Title }}</h1>
     {{- with .Description }}
