@@ -5,9 +5,10 @@
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc }}">
 <link rel="canonical" href="{{ .Permalink }}">
-<meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#F8F0F0" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#161213" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0c0a09">
+{{- /* Lets CSS hide data-animate content before first paint; main.js then reveals it. */}}
+<script>document.documentElement.classList.add("js")</script>
 
 <meta property="og:type" content="{{ cond .IsPage `article` `website` }}">
 <meta property="og:site_name" content="{{ site.Title }}">
@@ -32,6 +33,9 @@
 <link rel="preload" href="{{ "fonts/cormorant-garamond-400.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
 {{- with resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{- end }}
+{{- with resources.Get "js/main.js" | js.Build (dict "format" "esm" "minify" true "target" "es2020") | fingerprint }}
+<script type="module" src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
 {{- end }}
 {{- with .OutputFormats.Get "rss" }}
 <link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ site.Title }}">
