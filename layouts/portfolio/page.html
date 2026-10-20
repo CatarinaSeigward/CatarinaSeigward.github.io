@@ -1,17 +1,10 @@
 {{ define "main" }}
 <article>
-  <header class="wrap-narrow art-head" data-animate="intro">
+  <header class="wrap-narrow art-head">
     {{- with .Parent }}
-    <a class="btn btn-ghost btn-sm back" href="{{ .RelPermalink }}">{{ partial "icon.html" (dict "name" "arrow-left" "class" "icon-prev") }} All {{ lower .LinkTitle }}</a>
+    <a class="link back" href="{{ .RelPermalink }}"><span class="arrow" aria-hidden="true">←</span> All {{ lower .LinkTitle }}</a>
     {{- end }}
-    <div class="proj-top">
-      <div class="badges">
-        {{- range .Params.work }}
-        <span class="badge badge-outline">{{ title . }}</span>
-        {{- end }}
-      </div>
-      <span class="proj-year">{{ or .Params.jobDate .Date.Year }}</span>
-    </div>
+    <p class="tag">{{ partial "work-meta.html" . }}</p>
     <h1 class="art-title">{{ .Title }}</h1>
     {{- with .Description }}
     <p class="lead">{{ . }}</p>
@@ -19,7 +12,7 @@
     {{- if or .Params.techs .Params.partner .Params.team }}
     <dl class="facts">
       {{- with .Params.techs }}
-      <div><dt>Tools</dt><dd class="badges">{{ range . }}<span class="badge badge-secondary">{{ . }}</span>{{ end }}</dd></div>
+      <div><dt>Tools</dt><dd>{{ delimit . ", " }}</dd></div>
       {{- end }}
       {{- with .Params.team }}
       <div><dt>Team</dt><dd>{{ . }}</dd></div>
@@ -32,30 +25,30 @@
     {{- if or .Params.projectUrl .Params.demoUrl .Params.videoUrl .Params.reportUrl }}
     <div class="btn-row">
       {{- with .Params.projectUrl }}
-      <a class="btn btn-default" href="{{ . }}" target="_blank" rel="noopener">{{ if strings.Contains . "github.com" }}View on GitHub{{ else }}View project{{ end }} {{ partial "icon.html" (dict "name" "arrow-up-right" "class" "icon-out") }}</a>
+      <a class="btn" href="{{ . }}" target="_blank" rel="noopener">{{ if strings.Contains . "github.com" }}View on GitHub{{ else }}View project{{ end }} <span aria-hidden="true">↗</span></a>
       {{- end }}
       {{- with .Params.demoUrl }}
-      <a class="btn btn-outline" href="{{ . }}" target="_blank" rel="noopener">Live demo {{ partial "icon.html" (dict "name" "arrow-up-right" "class" "icon-out") }}</a>
+      <a class="btn" href="{{ . }}" target="_blank" rel="noopener">Live demo <span aria-hidden="true">↗</span></a>
       {{- end }}
       {{- with .Params.videoUrl }}
       {{- if hasPrefix . "#" }}
-      <a class="btn btn-outline" href="{{ . }}">{{ partial "icon.html" "play" }} Watch the demo</a>
+      <a class="btn" href="{{ . }}">Watch the demo <span aria-hidden="true">↓</span></a>
       {{- else }}
-      <a class="btn btn-outline" href="{{ . }}" target="_blank" rel="noopener">{{ partial "icon.html" "play" }} Watch the demo</a>
+      <a class="btn" href="{{ . }}" target="_blank" rel="noopener">Watch the demo <span aria-hidden="true">↗</span></a>
       {{- end }}
       {{- end }}
       {{- with .Params.reportUrl }}
-      <a class="btn btn-outline" href="{{ . | relURL }}">{{ partial "icon.html" "file-text" }} Read the full report</a>
+      <a class="btn" href="{{ . | relURL }}">Read the full report</a>
       {{- end }}
     </div>
     {{- end }}
   </header>
   {{- $contain := eq .Params.coverFit "contain" }}
   {{- with partial "cover.html" . }}
-  <figure class="wrap cover" data-animate="intro">
+  <figure class="wrap cover">
     <div class="frame{{ if $contain }} contain{{ end }}">
       {{/* A contained cover keeps the whole image; a cropped one is filled to 3:2. */}}
-      {{ partial "picture.html" (dict "img" . "ratio" (cond $contain false (slice 3 2)) "anchor" ($.Params.coverAnchor | default "center") "widths" (slice 720 1100 1600) "sizes" "(min-width: 1080px) 1016px, 100vw" "alt" "" "eager" true) }}
+      {{ partial "picture.html" (dict "img" . "ratio" (cond $contain false (slice 3 2)) "anchor" ($.Params.coverAnchor | default "center") "widths" (slice 720 1100 1600) "sizes" "(min-width: 1120px) 992px, 100vw" "alt" "" "eager" true) }}
     </div>
   </figure>
   {{- end }}
