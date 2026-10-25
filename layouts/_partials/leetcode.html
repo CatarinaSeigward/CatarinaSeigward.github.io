@@ -10,6 +10,7 @@ A failed fetch falls back to the vendored snapshot instead of failing the build.
     submitStatsGlobal { acSubmissionNum { difficulty count } }
     userCalendar { submissionCalendar }
     languageProblemCount { languageName problemsSolved }
+    problemsSolvedBeatsStats { difficulty percentage }
   }
 }` }}
 {{- $opts := dict
@@ -39,6 +40,8 @@ A failed fetch falls back to the vendored snapshot instead of failing the build.
 {{- range $data.allQuestionsCount }}{{ $totals = merge $totals (dict .difficulty .count) }}{{ end }}
 {{- $solved := dict }}
 {{- range $u.submitStatsGlobal.acSubmissionNum }}{{ $solved = merge $solved (dict .difficulty .count) }}{{ end }}
+{{- $beats := dict }}
+{{- range $u.problemsSolvedBeatsStats }}{{ $beats = merge $beats (dict .difficulty .percentage) }}{{ end }}
 
 {{- /* LeetCode lists Python and Python3 separately; count them as one language. */ -}}
 {{- $langs := dict }}
@@ -65,6 +68,9 @@ A failed fetch falls back to the vendored snapshot instead of failing the build.
         <span class="lc-bar-n">{{ $n }}<span class="meta"> / {{ $t | lang.FormatNumber 0 }}</span></span>
       </div>
       <div class="lc-track"><span style="width: {{ math.Round (mul 100 (div (float $n) $t)) }}%"></span></div>
+      {{- with index $beats . }}
+      <p class="meta lc-beats">Beats {{ lang.FormatNumber 2 . }}% of users</p>
+      {{- end }}
     </div>
     {{- end }}
   </div>

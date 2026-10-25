@@ -20,6 +20,16 @@
   {{- end }}
 </section>
 
+{{- with site.Params.leetcode }}
+<section class="wrap section">
+  <div class="sec-head">
+    <h2 class="eyebrow">LeetCode</h2>
+    <a class="link" href="https://leetcode.com/u/{{ . }}/" target="_blank" rel="noopener">Profile <span class="arrow" aria-hidden="true">→</span></a>
+  </div>
+  {{ partial "leetcode.html" . }}
+</section>
+{{- end }}
+
 {{- with site.GetPage "/portfolio" }}
 <section class="wrap section">
   <div class="sec-head">
@@ -31,16 +41,6 @@
     {{ partial "row.html" (dict "page" $p "n" (add $i 1) "meta" (partial "work-meta.html" $p) "level" 3) }}
     {{- end }}
   </div>
-</section>
-{{- end }}
-
-{{- with site.Params.leetcode }}
-<section class="wrap section">
-  <div class="sec-head">
-    <h2 class="eyebrow">LeetCode</h2>
-    <a class="link" href="https://leetcode.com/u/{{ . }}/" target="_blank" rel="noopener">Profile <span class="arrow" aria-hidden="true">→</span></a>
-  </div>
-  {{ partial "leetcode.html" . }}
 </section>
 {{- end }}
 
