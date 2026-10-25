@@ -307,6 +307,7 @@ p, figure { margin: 0; }
 .lc-medium { --lc: #C9A15A; }
 .lc-hard   { --lc: #B8636A; }
 .lc-track span { background: var(--lc); }
+.lc-beats { margin-top: 8px; font-size: .75rem; }
 
 .lc-facts { margin: 0; }
 .lc-facts div:first-child { padding-top: 0; border-top: 0; }
