@@ -1,0 +1,102 @@
+{{- /*
+LeetCode stats for site.Params.leetcode, fetched from LeetCode's GraphQL API at build time.
+A failed fetch falls back to the vendored snapshot instead of failing the build.
+*/ -}}
+{{- $user := site.Params.leetcode }}
+{{- $query := `query($u: String!) {
+  allQuestionsCount { difficulty count }
+  matchedUser(username: $u) {
+    profile { ranking }
+    submitStatsGlobal { acSubmissionNum { difficulty count } }
+    userCalendar { submissionCalendar }
+    languageProblemCount { languageName problemsSolved }
+  }
+}` }}
+{{- $opts := dict
+  "method" "post"
+  "headers" (dict "Content-Type" "application/json" "Referer" (printf "https://leetcode.com/u/%s/" $user))
+  "body" (dict "query" $query "variables" (dict "u" $user) | jsonify)
+}}
+{{- $data := dict }}
+{{- $live := false }}
+{{- $r := try (resources.GetRemote "https://leetcode.com/graphql" $opts) }}
+{{- with $r.Value }}
+  {{- $d := try (transform.Unmarshal .) }}
+  {{- with $d.Value }}{{ with .data }}{{ if .matchedUser }}
+    {{- $data = . }}
+    {{- $live = true }}
+  {{- end }}{{ end }}{{ end }}
+{{- end }}
+{{- if not $live }}
+  {{- with resources.Get "leetcode/snapshot.json" }}
+    {{- $data = (transform.Unmarshal .).data }}
+  {{- end }}
+{{- end }}
+
+{{- with $data.matchedUser }}
+{{- $u := . }}
+{{- $totals := dict }}
+{{- range $data.allQuestionsCount }}{{ $totals = merge $totals (dict .difficulty .count) }}{{ end }}
+{{- $solved := dict }}
+{{- range $u.submitStatsGlobal.acSubmissionNum }}{{ $solved = merge $solved (dict .difficulty .count) }}{{ end }}
+
+{{- /* LeetCode lists Python and Python3 separately; count them as one language. */ -}}
+{{- $langs := dict }}
+{{- range $u.languageProblemCount }}
+  {{- $name := cond (eq .languageName "Python3") "Python" .languageName }}
+  {{- $langs = merge $langs (dict $name (add (index $langs $name | default 0) .problemsSolved)) }}
+{{- end }}
+{{- $langList := slice }}
+{{- range $k, $v := $langs }}{{ $langList = $langList | append (dict "name" $k "n" $v) }}{{ end }}
+
+<div class="lc">
+  <div class="lc-total">
+    <p class="lc-num">{{ index $solved "All" | lang.FormatNumber 0 }}</p>
+    <p class="meta">problems solved of {{ index $totals "All" | lang.FormatNumber 0 }}</p>
+  </div>
+
+  <div class="lc-diff">
+    {{- range slice "Easy" "Medium" "Hard" }}
+    {{- $n := index $solved . }}
+    {{- $t := index $totals . }}
+    <div class="lc-bar lc-{{ lower . }}">
+      <div class="lc-bar-head">
+        <span class="tag">{{ . }}</span>
+        <span class="lc-bar-n">{{ $n }}<span class="meta"> / {{ $t | lang.FormatNumber 0 }}</span></span>
+      </div>
+      <div class="lc-track"><span style="width: {{ math.Round (mul 100 (div (float $n) $t)) }}%"></span></div>
+    </div>
+    {{- end }}
+  </div>
+
+  <dl class="facts lc-facts">
+    <div><dt>Ranking</dt><dd>#{{ $u.profile.ranking | lang.FormatNumber 0 }} globally</dd></div>
+    <div><dt>Languages</dt><dd>
+      {{- range $i, $l := first 3 (sort $langList "n" "desc") }}{{ if $i }} · {{ end }}{{ $l.name }} {{ $l.n }}{{ end -}}
+    </dd></div>
+  </dl>
+</div>
+
+{{- /* Submission heatmap: the last 53 weeks, one column per week starting on Sunday (UTC, as LeetCode keys it). */ -}}
+{{- $cal := transform.Unmarshal ($u.userCalendar.submissionCalendar | default "{}") }}
+{{- $today := now.UTC.Truncate (time.ParseDuration "24h") }}
+{{- $weekday := printf "%d" $today.Weekday | int }}
+{{- $start := $today.AddDate 0 0 (sub -364 $weekday) }}
+{{- $days := add 365 $weekday }}
+<div class="lc-heat-scroll">
+  <div class="lc-heat" role="img" aria-label="LeetCode submissions per day over the past year">
+    {{- range $i := seq 0 (sub $days 1) }}
+    {{- $d := $start.AddDate 0 0 $i }}
+    {{- $col := add (div $i 7) 1 }}
+    {{- $row := add (mod $i 7) 2 }}
+    {{- if and (eq $row 2) (le $d.Day 7) }}
+    <span class="lc-month" style="grid-column: {{ $col }}">{{ $d.Format "Jan" }}</span>
+    {{- end }}
+    {{- $n := index $cal (string $d.Unix) | default 0 }}
+    {{- $lvl := cond (ge $n 11) 4 (cond (ge $n 6) 3 (cond (ge $n 3) 2 (cond (ge $n 1) 1 0))) }}
+    <span class="lc-cell l{{ $lvl }}" style="grid-area: {{ $row }} / {{ $col }}" title="{{ $n }} submission{{ if ne $n 1 }}s{{ end }} · {{ $d.Format "Jan 2, 2006" }}"></span>
+    {{- end }}
+  </div>
+</div>
+<p class="meta lc-note">{{ if $live }}Synced from LeetCode on {{ now.Format "2 January 2006" }}{{ else }}Local snapshot of LeetCode stats{{ end }} · rebuilt daily.</p>
+{{- end }}

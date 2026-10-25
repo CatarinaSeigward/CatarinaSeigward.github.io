@@ -20,6 +20,8 @@ disableKinds = ["taxonomy", "term"]
   description = "Kaiwen Lin — machine learning and software engineering at UT Austin. Projects, writing and photography."
   tagline = "MLE / SDE · UT Austin"
   portrait = "images/portrait.jpg"
+  # LeetCode username: the home page shows its stats, fetched on every build.
+  leetcode = "dameilin66"
 
   [[params.social]]
     name = "Email"
@@ -30,6 +32,9 @@ disableKinds = ["taxonomy", "term"]
   [[params.social]]
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/kaiwen-lin-aa8162284"
+  [[params.social]]
+    name = "LeetCode"
+    url = "https://leetcode.com/u/dameilin66/"
   [[params.social]]
     name = "Instagram"
     url = "https://www.instagram.com/realkaiwenlin/"
