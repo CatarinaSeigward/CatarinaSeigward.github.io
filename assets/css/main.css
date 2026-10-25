@@ -297,6 +297,7 @@ p, figure { margin: 0; }
 }
 .lc-num { font-family: var(--serif); font-size: clamp(3.5rem, 7vw, 5rem); line-height: 1; letter-spacing: -.02em; }
 .lc-total .meta { margin-top: 10px; }
+.lc-beats { margin-top: 14px; font-size: .85rem; color: var(--ink-2); }
 
 .lc-diff { display: grid; gap: 18px; }
 .lc-bar-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
@@ -307,7 +308,6 @@ p, figure { margin: 0; }
 .lc-medium { --lc: #C9A15A; }
 .lc-hard   { --lc: #B8636A; }
 .lc-track span { background: var(--lc); }
-.lc-beats { margin-top: 8px; font-size: .75rem; }
 
 .lc-facts { margin: 0; }
 .lc-facts div:first-child { padding-top: 0; border-top: 0; }
