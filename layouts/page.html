@@ -15,6 +15,37 @@
   <div class="wrap-narrow prose">
     {{ .Content }}
   </div>
+  {{- if .Store.Get "hasMermaid" }}
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.esm.min.mjs";
+    // Draw with the site's own tokens so diagrams follow light and dark mode.
+    const css = getComputedStyle(document.documentElement);
+    const v = (name) => css.getPropertyValue(name).trim();
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: "base",
+      flowchart: { wrappingWidth: 140, nodeSpacing: 24 },
+      themeVariables: {
+        fontFamily: v("--sans"),
+        fontSize: "14px",
+        background: v("--bg"),
+        primaryColor: v("--bg-2"),
+        primaryBorderColor: v("--line-strong"),
+        primaryTextColor: v("--ink"),
+        lineColor: v("--muted"),
+        edgeLabelBackground: v("--bg"),
+      },
+    });
+    // Measure labels with the web font, not the fallback, or they come out clipped.
+    await document.fonts.ready;
+    await mermaid.run();
+    // Wide flowcharts would shrink to unreadable text on a phone: keep a floor and let them scroll.
+    for (const svg of document.querySelectorAll("pre.mermaid svg")) {
+      const natural = parseFloat(svg.style.maxWidth) || svg.viewBox.baseVal.width;
+      svg.style.minWidth = `${Math.min(natural, 600)}px`;
+    }
+  </script>
+  {{- end }}
   {{- if eq .Section "post" }}
   {{ partial "pager.html" . }}
   {{- end }}

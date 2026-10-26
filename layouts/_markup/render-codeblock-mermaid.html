@@ -1,0 +1,5 @@
+{{- /* Mermaid source is drawn in the browser; the page loads the script only when this hook ran. */ -}}
+{{- .Page.Store.Set "hasMermaid" true -}}
+{{- /* Long left-to-right chains shrink to unreadable text in the narrow prose column, so lay them out top-down. */ -}}
+{{- $src := replaceRE `\A(\s*flowchart)\s+LR\b` "$1 TD" .Inner -}}
+<pre class="mermaid">{{ $src | htmlEscape | safeHTML }}</pre>
