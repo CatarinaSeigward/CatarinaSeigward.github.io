@@ -1,7 +1,7 @@
 ---
 title: "Refusing Everything Is Not a Defense"
 description: "A model that declines every request has an attack success rate of zero. Reading defense results with that baseline in mind."
-date: "2026-08-15"
+date: "2026-08-28"
 ---
 
 The cheapest defense is to refuse everything. It scores 0% ASR and is useless, so any ASR table needs a second column that a refusal policy cannot win. The circuit breakers paper treats this seriously. The retain set mixes UltraChat, XSTest (prompts that look unsafe but are not) and, for Llama-3, extra refusal data. Evaluation includes over-refusal on 500 WildChat requests. For agents, the paper checks function-calling ability on BFCL: 74.8 for the original model, 76.0 with Representation Rerouting, and 72.0 with a safety prompt.
