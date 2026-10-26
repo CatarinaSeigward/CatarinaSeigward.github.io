@@ -491,6 +491,12 @@ p, figure { margin: 0; }
 .prose code { padding: .1em .35em; border-radius: 3px; background: var(--bg-2); font-family: var(--mono); font-size: .88em; }
 .prose pre { overflow-x: auto; padding: 18px 20px; border-radius: 4px; background: var(--bg-2); font-size: .88rem; line-height: 1.6; }
 .prose pre code { padding: 0; background: none; }
+/* Mermaid diagrams: hidden until drawn so the raw source never flashes. */
+.prose pre.mermaid { overflow-x: auto; padding: 8px 0; background: none; text-align: center; visibility: hidden; }
+/* Undo the code-block text styles, which would otherwise leak into the labels and clip them. */
+.prose pre.mermaid, .prose pre.mermaid * { white-space: normal; font-size: 14px; line-height: 1.5; }
+.prose pre.mermaid[data-processed] { visibility: visible; }
+.prose pre.mermaid svg { max-width: 100%; height: auto; margin-inline: auto; }
 
 .prose .table-wrap { overflow-x: auto; }
 .prose table { width: 100%; border-collapse: collapse; font-size: .92rem; line-height: 1.5; }
@@ -515,6 +521,7 @@ p, figure { margin: 0; }
   font-family: var(--serif);
   font-size: 1.3rem;
   line-height: 1.25;
+  overflow-wrap: break-word;
   transition: color .3s var(--ease);
 }
 .pager-a:hover .pager-title { color: var(--accent); }
