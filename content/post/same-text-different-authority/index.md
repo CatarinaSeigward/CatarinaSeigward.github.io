@@ -1,7 +1,7 @@
 ---
 title: "Same Text, Different Authority"
 description: "The same refund note should be acted on in one run and questioned in the next. A small paired test for whether AI agents respect who is allowed to decide."
-date: "2026-11-22"
+date: "2026-11-17"
 ---
 
 Here's a sentence an AI agent might find in a support ticket:
@@ -26,7 +26,7 @@ A preprint from earlier this month, *Beyond Instruction Override* (Zhang et al.)
 
 One number stuck with me. A tool-policy defense (Progent, which checks every tool call against rules about which tools and arguments are allowed) still let 15.4% of these attacks through, against 17.0% with no defense at all. Once you see why, it seems almost obvious. The attacked agent calls exactly the tools it was supposed to call. It just fills in the arguments with bad information. A filter on *which* tools run can't see that.
 
-The paper is only a few weeks old, so I'd hold the exact numbers loosely. The failure mode looks real, though, and it suggests a narrower question that's easy to test on its own: if you change a source's authority and nothing else, does the system's decision change the way it should?
+The paper is less than two weeks old, so I'd hold the exact numbers loosely. The failure mode looks real, though, and it suggests a narrower question that's easy to test on its own: if you change a source's authority and nothing else, does the system's decision change the way it should?
 
 ## Two runs, one record
 
